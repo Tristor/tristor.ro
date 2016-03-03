@@ -43,8 +43,14 @@ paginate = 10
   [[menu.main]]
     name = "Contact"
     pre = "<i class='fa fa-phone fa-fw'></i>"
-    weight = 3
+    weight = 4
     url = "/contact/"
+  [[menu.main]]
+    name = "Resume"
+    pre = "<i class='fa fa-user fa-fw'></i>"
+    weight = 3
+    identifier = "resume"
+    url = "http://tristor.ro/resume/"
 
 [social]
   # Link your social networking accouns to the side menu
@@ -52,5 +58,5 @@ paginate = 10
   flickr = "totaledcow"
   twitter = "tristor"
   github = "tristor"
-  github = "tduzan"
+  keybase = "tristor"
   linkedin = "tylerduzan"
