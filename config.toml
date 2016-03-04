@@ -60,5 +60,6 @@ paginate = 10
   flickr = "totaledcow"
   twitter = "tristor"
   github = "tristor"
-  keybase = "tristor"
   linkedin = "tylerduzan"
+  hackernews = "tristor"
+  reddit = "tristor"
