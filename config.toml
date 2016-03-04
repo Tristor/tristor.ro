@@ -1,10 +1,12 @@
 baseurl = "https://travelblog.tristor.ro/"
 languageCode = "en-us"
+theme = "blackburn"
 title = "Wandering in Wondering"
 author = "Tristor"
 copyright = "&copy; 2016. All rights reserved."
 canonifyurls = true
 paginate = 10
+
 
 [indexes]
   tag = "tags"

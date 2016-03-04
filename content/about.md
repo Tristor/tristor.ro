@@ -1,12 +1,15 @@
 +++
 date = "2016-03-03T01:19:20-06:00"
 tags = ["me", "about", "blog", "bio", "travel", "beer", "devops"]
-title = "about"
+title = "About"
 topics = ["me"]
 
 +++
-
 ## About Me
+
+
+{{% fluid_img "/img/me.jpg" %}}
+
 
 I am many things, but perhaps most of all I am a life-long learner.  I aspire to become a renaissance man, although I see the journey ahead as being long (and a whole lot of fun).  My interests are fairly broad, and I tend to pick up new hobbies and interests often, delve deeply into them, and then file them away to make room for the next.
 
@@ -40,7 +43,6 @@ Gear:
 - Nikon 105mm f/2.8G IF-ED AF-S VR
 - Nikon 50mm f/1.8D AF
 - Nikon 28mm f/2.8D AF
-
 - rMBP 15" mid-2015 DG
 - Adobe CC Photoshop
 - Adobe CC Lightroom
