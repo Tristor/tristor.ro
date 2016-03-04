@@ -2,7 +2,7 @@
 date = "2016-03-03T01:19:20-06:00"
 tags = ["me", "about", "blog", "bio", "travel", "beer", "devops"]
 title = "about"
-topics = ["me", "devops", "beer", "travel"]
+topics = ["me"]
 
 +++
 
