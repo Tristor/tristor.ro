@@ -16,6 +16,23 @@ I am many things, but perhaps most of all I am a life-long learner.  I aspire to
 
 My primary focus right now, besides travel, is my love of food, drink (coffee, beer, and whisk(e)y), photography, and technology.  These are the topics which primarily be the focus of my writing. I'm going to attempt to make at least weekly updates to this site, especially during my travels.  I am, unfortunately, also a workaholic though, so this will require some discipline on my part.
 
+Topics I'm especially interested in and might even write about are:
+security and privacy, video games, graphics technology, headphones,
+stereo amplifiers, audio source components, home theater, and general
+computer hardware.  Of course you may also see me write about topics
+which are related to the type of work that I do. I may also occasionally
+write about philosophy, current events, or politics, although this will
+be rare. 
+
+My own personal philosophy is relatively simple.  I pretty much believe
+in "You do you."  As long as what someone does is not directly affecting
+me in a negative way, go for it.  I try to also ensure that anything I
+do does not cause a negative effect on others.  If you're curious here's
+my political compass:
+
+{{% fluid_img "/img/political-compass.png" %}}
+
+
 ### Travel
 
 I'm currently one of the folks in the June 2016 cohort for [Remote Year](http://www.remoteyear.com/).  In short, I'm doing a lot of international travel currently.  I've attempted a blog a few times before, but traveling this much has given me a great reason to write and share.  I would not say I'm any sort of expert on travel, but I'll share any of my experiences, tips and tricks, etc. along the way.
