@@ -35,7 +35,7 @@ my political compass:
 
 ### Travel
 
-I'm currently one of the folks in the June 2016 cohort for [Remote Year](http://www.remoteyear.com/).  In short, I'm doing a lot of international travel currently.  I've attempted a blog a few times before, but traveling this much has given me a great reason to write and share.  I would not say I'm any sort of expert on travel, but I'll share any of my experiences, tips and tricks, etc. along the way.
+I'm currently going through the application process for the June 2016 cohort for [Remote Year](http://www.remoteyear.com/).  In short, I'm planning to do a lot of international travel soon.  I've attempted a blog a few times before, but traveling this much has given me a great reason to write and share.  I would not say I'm any sort of expert on travel, but I'll share any of my experiences, tips and tricks, etc. along the way.
 
 ### DevOps Engineer
 
