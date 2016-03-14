@@ -8,7 +8,7 @@ topics = ["travel", "remoteyear", "me"]
 
 I'm in!
 
-I'm pleased to announce that I've been accepted to join Remote Year for the Darién starting on June 1st, 2016 in Prague, Czech Republic, and returning to the US in June of 2017.  I've been looking forward to doing international travel and participating in the digital nomad lifestyle for many years, and since I now work remotely its presented the opportunity to make that dream a reality.  I'm overjoyed to be part of what is surely going to be an epic experience.
+I'm pleased to announce that I've been accepted to join Remote Year as part of the Darién cohort starting on June 1st, 2016 in Prague, Czech Republic, and returning to the US in June of 2017.  I've been looking forward to doing international travel and participating in the digital nomad lifestyle for many years, and since I now work remotely its presented the opportunity to make that dream a reality.  I'm overjoyed to be part of what is surely going to be an epic experience.
 
 ### So what is Remote Year?
 
