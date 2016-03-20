@@ -3,7 +3,7 @@ languageCode = "en-us"
 theme = "blackburn"
 title = "Wandering in Wondering"
 author = "Tristor"
-copyright = "&copy; 2016. All rights reserved."
+copyright = "&copy; 2016 <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/'>Licensed CC:By-NC-SA</a>"
 canonifyurls = true
 paginate = 10
 
