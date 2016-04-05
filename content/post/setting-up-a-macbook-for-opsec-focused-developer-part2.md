@@ -37,13 +37,15 @@ First we're going to download and install [iTerm2](https://iterm2.com/).  While 
 Next we're going to install Homebrew.  Homebrew is a package manager for OS X that provides an easy way to install and keep up to date lots of open source software, much of which you might be familiar with from the land of Linux.  It's absolutely essential for any developer or ops person, as it gives you access to tools which are otherwise painful to impossible to get working, and helps keep your tools up to date to avoid security issues and get access to the latest features.
 
 Without further ado, run:
-`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
 
 Then afterwards, you should run `brew doctor` and ensure it returns back the line "Your system is ready to brew."  If you see anything else, it should provide instructions on how to fix the issue.  It's useful to run `brew doctor` any time you encounter issues with Homebrew as it will help diagnose the cause.
 
 Before we proceed you need to add the following "taps", which are essentially additional package repositories for Homebrew.
 
-```
+```bash
 brew tap caskroom/cask
 brew tap homebrew/completions
 brew tap homebrew/core
@@ -80,7 +82,7 @@ First, install `openssl` and `libressl` with `brew install`.  Then
 * `rsync`
 * `wget`
 * `archey`
-	- Note: is used in the .zlogin in my fork of Prezto
+	- Note: is used in the `.zlogin` in my fork of Prezto
 * `jq`
 * `pigz`
 * `p7zip`
@@ -93,10 +95,10 @@ If you don't already have an SSH keypair, now is a good time to make one since y
 
 In either case, we'll use the tool `ssh-keygen`.
 
-For RSA:
+For RSA:  
 `ssh-keygen -t rsa -b 4096`
 
-For Elliptical Curve
+For Elliptical Curve:  
 `ssh-keygen -t ed25519`
 
 While you're at it, you should harden your local SSH configuration by editing `~/.ssh/config` with Vim or your favorite installed editor.
@@ -127,11 +129,11 @@ Finally, proceed by following the install instructions as laid out here for my f
 
         zsh
 
-  2. Clone the repository:
+ 2. Clone the repository:
 
         git clone https://github.com/Tristor/prezto.git --recursive  "${ZDOTDIR:-$HOME}/.zprezto"
 
-  3. Create a new Zsh configuration by copying the Zsh configuration files
+ 3. Create a new Zsh configuration by copying the Zsh configuration files
      provided:
 
         setopt EXTENDED_GLOB
@@ -139,20 +141,22 @@ Finally, proceed by following the install instructions as laid out here for my f
           ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
         done
 
-  4. Set Zsh as your default shell:
+ 4. Set Zsh as your default shell:
 
         vim /etc/shells (add /usr/local/bin/zsh)
 		chsh -s /usr/local/bin/zsh
 
-  5. Open a new Zsh terminal window or tab.
+ 5. Open a new Zsh terminal window or tab.
 
-After the installation, make sure you edit .zpreztorc to put your SSH key in the listing for the SSH plugin.  In my fork it has my keys listed, in the upstream it is an empty list.
+After the installation, make sure you edit `.zpreztorc` to put your SSH key in the listing for the SSH plugin.  In my fork it has my keys listed, in the upstream it is an empty list.
 
 ## Install Janus
 
 You use Vim, right?  If not, about high time you learned.  Either way, you might want a jump start and that's where [Janus](https://github.com/carlhuda/janus) comes in.  It provides a sane set of plugins and tweaks to make using Vim an enjoyable experience without preventing you from customizing to your hearts desire.  To install run:
 
-`curl -L https://bit.ly/janus-bootstrap | bash`
+```
+curl -L https://bit.ly/janus-bootstrap | bash
+```
 
 ## Install Textmate2
 
@@ -160,31 +164,114 @@ We all love Vim, but sometimes you just want more.  Enter [Textmate2](http://mac
 
 ## OS X Dev-Focused Tuning
 
+These are adapted from [Mathias Bynens' excellent dotfiles](https://github.com/mathiasbynens/dotfiles).  You can basically copy/paste this into a terminal and type your password for the things which require sudo when prompted.  I've filtered through these and selected the ones I think are relevant in the most general case and do the most benefit for improving security, privacy, and usefulness of the system to a developer.  You are welcome to review Mathias' original suggestions and modify to suit your own needs.  Below is a documented simple script and the same but ready to be copy/pasted into the terminal.
+
+{{< gist d3c699d16f6c1bbeec8f4c9d647a1f24 >}}
+
 ## Configure Git
 
 ## Languages/Managers
 
-Before you get too much farther along, you should set up a projects folder to work in.  I suggest following the [Go developer conventions](https://golang.org/doc/code.html) because they're pretty sane.  In fact, my opionated configurations from my fork of Prezto assume that you will have a folder in your home directory named `projects` and inside you will have `go` as your $GOPATH, which will follow the conventions in the link, and everything else will be git cloned inside of `~/projects`.
+Before you get too much farther along, you should set up a projects folder to work in.  I suggest following the [Go developer conventions](https://golang.org/doc/code.html) because they're pretty sane.  In fact, my opionated configurations from my fork of Prezto assume that you will have a folder in your home directory named `projects` and inside you will have `go` as your `$GOPATH`, which will follow the conventions in the link, and everything else will be git cloned inside of `~/projects`.
 
 ### Install RVM/Ruby
 
+Create a `.gemspec` file in your home directory that contains `gem: --no-ri --no-rdoc` in order to prevent generating local documentation and to speed up gem installation.  If you have Internet access and/or install Dash (mentioned in Part 3) you definitely won't need the local docs.
+
+RVM is the "Ruby Version Manager" and helps you make a bit of sense out of the complete and utter mess that is managing Ruby environments.  Good luck Rubyists!
+
+Install RVM w/ latest stable Ruby:
+```
+gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+\curl -sSL https://get.rvm.io | bash -s stable --ruby
+```
+
+Once this has been completed, I recommend you install the following gems to make your life easier:
+```
+gem install bundler
+gem install pry
+gem install capistrano
+gem install rake
+```
+
 ### Install NVM/Node.JS
+
+Love it or hate it, you're probably going to need it.  NVM is "Node Version Manager" and serves a similar purpose to RVM, except for the often mired world of Node.JS.  
+
+Install NVM w/ latest (as of this writing) stable Node.JS:
+```
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash
+nvm install v5.10.0
+nvm alias default v5.10.0
+```
+
+I'd make a joke here about left-pad being a useful npm module, but I don't think JS devs deserve anymore ribbing than they already get.
 
 ### Install Golang
 
+This one is pretty simple.
+
+```
+brew install go
+```
+
+Yep, you're done assuming you previously set your $GOPATH and/or you're using my recommend workspace layout and my fork of Prezto.
+
 ### Install Haskell/Cabal-Install
+
+This one is a bit trickier, be prepared for some compilation time
+
+Install latest cabal-install and GHC
+```
+brew install cabal-install
+cabal update
+cabal install cabal-install
+```
 
 ### Install Python2.7/Python3
 
-### Install ChefDK
+Note the `pip` commands below should instead be `syspip` if you're using my fork of Prezto as I have set an environment variable that prevents pip from running outside a virtualenv for environment cleanliness unless you invoke it with `syspip`
+
+```
+brew install python
+brew install python3
+pip -U pip
+pip3 -U pip
+pip install virtualenv
+```
+
+### Install ChefDK (optional)
+
+If you're an ops person who uses Chef, you need to install the ChefDK, because otherwise its a nightmare getting everything working.
+
+Grab it [on the official ChefDK download page](https://downloads.chef.io/chef-dk/) and follow the instructions there for install.  Good luck.
 
 ## Install VirtualBox/Vagrant
 
+Grab and install the latest [Virtualbox and Virtualbox Extensions](https://www.virtualbox.org/wiki/Downloads) and install them as usual for such things.  This will provide you a basic FOSS hypervisor that will back Vagrant, Docker-Machine, and Kitchen-CI (if you're using Chef).  After Virtualbox is installed, install [Vagrant from the official download page](https://www.vagrantup.com/downloads.html).
+
 ## Install Docker/Docker-Machine
 
-## Install Veertu
+Replace `$name` below with whatever you want to call your docker-machine instance.  I named mine `build` because I primarily use Docker in build script wrappers to essentially act as a build chroot environment.
+
+```
+brew install docker
+brew install docker-machine
+docker-machine create --driver virtualbox $name
+eval $(docker-machine env $name)
+```
+
+If you want to automatically have this environment configured when you start up, make sure that your .zshrc has the proper start and eval statements for `docker-machine`.
+
+## Install Veertu (optional)
+
+Veertu is AFAIK the only OS X hypervisor application which is entirely native to OS X and works within App Store sandboxing.  You can [get it on the Mac App Store](https://itunes.apple.com/us/app/veertu-native-virtualization/id1024069033) for free.  It costs $40 if you want to run Windows with it, but it lets you run an unlimited number of Linux VMs for free which might be useful for having a VM-based Linux desktop environment.  I mostly use Chef + Kitchen-CI + Vagrant + Virtualbox for testing, so I rarely use Veertu, but considering its free it doesn't hurt to install.
 
 ## Install Programmer Fonts
 
 Visit the [guide to programmer fonts](http://www.lowing.org/fonts/) and pick your favorite or search around for other options.  Install it and configure iTerm2 and your preferred text editor(s) to use it.  That's pretty much the gist.  I use [Inconsolata](https://github.com/google/fonts/tree/master/ofl/inconsolata) because its hinting works very well with the Retina displays.
 
+
+# Stay tuned for Part 3!
+
+Thanks for reading.
