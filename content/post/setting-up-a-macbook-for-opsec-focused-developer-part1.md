@@ -23,7 +23,7 @@ process of writing it and to make it easier to digest.  I'm taking some
 steps out of order, but am making an effort to organize them into the
 most logical order possible.
 
-* Part 1: Unboxing, Setup Assistant, iCloud, and System Preferences & Web Browser Configuration (Firefox)
+* Part 1: [Unboxing, Setup Assistant, iCloud, and System Preferences & Web Browser Configuration (Firefox)](https://tristor.ro/blog/2016/03/23/setting-up-a-macbook-for-an-opsec-focused-developer---part-1/)
 * Part 2: Setting up a Basic Development Environment
 * Part 3: Additional Applications to Install
 * Part 4: Configure Backups and Firewalls.
@@ -60,12 +60,13 @@ is to do the following:
 9. Under Users & Groups, click the lock, enter your password, and then disable the Guest User account.
 10. At this time, change your password to something strong.  I recommend a good password combined with the output of a slot on a Yubikey configured with a randomized static string. This effectively provides two-factor authentication for system login and disk decryption (which we will enable momentarily)
 11. Under Security & Privacy -> FileVault, enable FileVault and follow the instructions, wait for it to complete before continuing.
-12. Under Network, turn on Wi-Fi if it was not already enabled.  Connect to your preferred wireless network.
-13. Still under your Network preferences, click Advanced and check the boxes for requiring administrative authorization to:
+12. Under Security & Privacy -> Firewall, enable the Apple Firewall.  Leave this enabled, we will install and configure Murus and Little Snitch later in this guide on top of this for stronger security.
+13. Under Network, turn on Wi-Fi if it was not already enabled.  Connect to your preferred wireless network.
+14. Still under your Network preferences, click Advanced and check the boxes for requiring administrative authorization to:
   - Create computer to computer (adhoc) networks
   - Change networks
   - Turn Wi-Fi on or off
-14. Under iCloud, sign-in to your iCloud account.  Enable the minimum subset of iCloud services you need.  In my case I sync contacts, calendar, and use the iCloud keychain for relationship between my iPhone and Macbook.  I also enable Find My Mac w/ Location Services to help recover the laptop if stolen.
+15. Under iCloud, sign-in to your iCloud account.  Enable the minimum subset of iCloud services you need.  In my case I sync contacts, calendar, and use the iCloud keychain for relationship between my iPhone and Macbook.  I also enable Find My Mac w/ Location Services to help recover the laptop if stolen.
 
 ## Web Browser Configuration (Firefox)
 
@@ -107,6 +108,16 @@ is to do the following:
 18. Ensure you configure uBlock Origin to use Advanced mode, and enable Web RTC leak protection
 19. Otherwise configure the above addons as you desire.  See [Privacy Tools](https://privacytools.io) for more suggestions.
 
+
+## Set a Boot-up Password in Open Firmware
+
+1. Reboot into the Open Firmware. `Command + Option + O + F`
+
+2. At the command prompt, type `password`. You will be prompted to enter in the password you wish to use. Type your password, press the return key, retype your password again, and press return to verify that that the first password you typed is indeed the password you want. (Note: the password is stored in the `security-password` variable, but the contents of this variable is never shown via the `printenv` command.)  **DO NOT FORGET THIS PASSWORD, IT IS REQUIRED TO BOOT YOUR SYSTEM**
+
+3. Type `setenv security-mode full` which will require your firmware password to boot the system and will prevent several attacks that could otherwise be performed against the system if someone had physical access to it.  FileVault2 FDE is not enough, you need to set a boot-up password in addition.
+
+4. Then type `reset-all` to restart the computer.
 
 # Stay tuned for Part 2!
 
