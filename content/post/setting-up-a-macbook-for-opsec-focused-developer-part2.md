@@ -18,7 +18,7 @@ steps out of order, but am making an effort to organize them into the
 most logical order possible.
 
 * Part 1: [Unboxing, Setup Assistant, iCloud, and System Preferences & Web Browser Configuration (Firefox)](https://tristor.ro/blog/2016/03/23/setting-up-a-macbook-for-an-opsec-focused-developer---part-1/)
-* Part 2: Setting up a Basic Development Environment
+* Part 2: [Setting up a Basic Development Environment](https://tristor.ro/blog/2016/04/02/setting-up-a-macbook-for-an-opsec-focused-developer---part-2/)
 * Part 3: Additional Applications to Install
 * Part 4: Configure Backups and Firewalls.
 * Part 5: Wrapping Up
