@@ -109,15 +109,20 @@ is to do the following:
 19. Otherwise configure the above addons as you desire.  See [Privacy Tools](https://privacytools.io) for more suggestions.
 
 
-## Set a Boot-up Password in Open Firmware
+## Set a Boot Selection Password in Open Firmware
 
-1. Reboot into the Open Firmware. `Command + Option + O + F`
+Why might you want to do this?  Well it prevents a malicious actor who gets physical access to your device from running a bootable software intended to bypass FileVault2 FDE, clone your disk, or to reinstall the OS so it can bypass Find My Mac.  In any case, your should be able to have control over who can run software on your system, and this gives you a bit more control for minimal to no inconvenience as the password will only be necessary if you boot off something other than your normal startup disk (which is protected via FileVault2 FDE).
 
-2. At the command prompt, type `password`. You will be prompted to enter in the password you wish to use. Type your password, press the return key, retype your password again, and press return to verify that that the first password you typed is indeed the password you want. (Note: the password is stored in the `security-password` variable, but the contents of this variable is never shown via the `printenv` command.)  **DO NOT FORGET THIS PASSWORD, IT IS REQUIRED TO BOOT YOUR SYSTEM**
+1. Shut down your Mac completely.
+2. Startup into Recovery Mode. `Command + R` during bootup, pretty much as soon as the screen backlight comes on or when you here the OS X chime.
+3. Choose your language
+4. Choose the Firmware Password Utility from the Utilities menu at the top.
+5. Enter your new password and then again to verify.  **DO NOT FORGET THIS PASSWORD!**  You will be unable to boot off any disk except the startup disk, including performing a recovery, restoration from backup, or reinstall without this password (which is where the security benefit comes from).
+6. Click Set Password
+7. Choose `Restart` from the Apple menu.
 
-3. Type `setenv security-mode full` which will require your firmware password to boot the system and will prevent several attacks that could otherwise be performed against the system if someone had physical access to it.  FileVault2 FDE is not enough, you need to set a boot-up password in addition.
-
-4. Then type `reset-all` to restart the computer.
+See [Apple's official documentation for using a firmware password]
+(https://support.apple.com/en-us/HT204455) for more details if you desire.
 
 # Stay tuned for Part 2!
 
