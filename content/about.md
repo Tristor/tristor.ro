@@ -56,10 +56,12 @@ Gear:
 - Nikon D7200
 - (want) Nikon D750
 - Nikon 300mm f/4D IF-ED AF-S
-- (want) Nikon 300mm f/4E PF ED AF-S VR
+- Nikon 300mm f/4E PF ED AF-S VR
+- (want) Nikon AF-S NIKKOR 500mm f/4E FL ED VR Lens
 - Nikon 105mm f/2.8G IF-ED AF-S VR
 - Nikon 50mm f/1.8D AF
 - Nikon 28mm f/2.8D AF
+- (want) Nikon AF Fisheye-NIKKOR 16mm f/2.8D Lens
 - rMBP 15" mid-2015 DG
 - Adobe CC Photoshop
 - Adobe CC Lightroom
