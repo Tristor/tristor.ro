@@ -26,7 +26,7 @@ I have acquired travel/travel medical insurance and camera insurance.  I also fi
 
 I also acquired an International Driving Permit.  Now that we're going to London, I'm hoping to take advantage of the ridiculously cheap airfare from London to the rest of Europe to do a trip to Belgium and Germany during my time there to visit breweries.  In particular I want to go to Weihenstephaner in Germany and Brouwerij van Steenberge, Brouwerij de Sint-Sixtusabdij van Westvleteren, and Brasserie de Rochefort van Abbaye Notre-Dame de Saint-Remy in Belgium.
 
-Last but not leasst I have a few items left to and probably write about.  The main thing left is I need to set up OpenVPN on my Ubiquiti Edgeroute ER3L w/ legit certs and proper DNS records so I can VPN from anywhere to secure public Wi-Fi.
+Last but not least I have a few items left to and probably write about.  The main thing left is I need to set up OpenVPN on my Ubiquiti Edgeroute ER3L w/ legit certs and proper DNS records so I can VPN from anywhere to secure public Wi-Fi.
 
 
 You can expect another update from me shortly to the Macbook setup instructions.  Going to try to complete them as my weekend project.  Also, of note, my site now has a favicon and I have made the [tristor.ro Github repo](https://github.com/Tristor/tristor.ro) public.  More on that later.

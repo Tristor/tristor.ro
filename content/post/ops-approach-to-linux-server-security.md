@@ -87,7 +87,7 @@ business environment where you have multiple users and multiple servers
 * Security through obscurity is not security, but it can be a layer.
   Don't provide any information to an attacker you can avoid.
 
-### 5. Firewalls are Your Friend, but are not a Panacaea
+### 5. Firewalls are Your Friend, but are not a Panacea
 
 * Block all *INGRESS* and *EGRESS* traffic that is not strictly
   necessary

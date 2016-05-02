@@ -56,7 +56,7 @@ Regarding customs declarations, deeper investigation reveals that I don't need a
 * Lenses and filters
 * Flashes/Speedlights
 * Laptop(s)
-* Any periphereals (graphics tablet)
+* Any peripherals (graphics tablet)
 * Tripods and tripod heads
 * Any other accessory which has a serial number on it
 

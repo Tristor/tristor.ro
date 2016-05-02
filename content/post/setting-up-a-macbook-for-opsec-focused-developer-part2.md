@@ -68,7 +68,7 @@ First, install `openssl` and `libressl` with `brew install`.  Then
 * `git` with `--with-blk-sha1 --with-gettext --with-pcre --with-persistent-https --with-brewed-openssl --with-brewed-curl`
 	- Note: for /some/ services you may run into certificate issues by doing this.  If you want an easier time of it and aren't as concerned about having the /latest/ SSL library for Git, remove `--with-brewed-curl --with-brewed-openssl` from the above.
 * `openssh` with `--with-libressl --without-openssl`
-	- Note: using the offical OpenSSH sources via Homebrew will break OSX keychain support, but this will become irrelevant if you use ZSH w/ my fork of Prezto as noted below.
+	- Note: using the official OpenSSH sources via Homebrew will break OSX keychain support, but this will become irrelevant if you use ZSH w/ my fork of Prezto as noted below.
 * `python3`
 * `vim` with `--override-system-vi --with-lua --with-python3`
 * `macvim` with `--with-python3 --with-lua`
@@ -91,7 +91,7 @@ First, install `openssl` and `libressl` with `brew install`.  Then
 
 ## Create an SSH Keypair
 
-If you don't already have an SSH keypair, now is a good time to make one since you'll be able to add it to your .zpreztorc in the next step.  The most common algorithm used for SSH keypairs is RSA, and you should be using a minimum of a 4096-bit key if you do choose RSA.  A newly supported set of Elliptical Curve algorithms are now available though and I highly recommend using ed25519 keypairs if you can.  RSA has some compatability advantages since its been around longer, and is supported by older versions of OpenSSH, and if you use something like AWS you may find out soon that only RSA keys are supported.  Of course, you're welcome to do what I do and create two keypairs, one which is RSA and one using Elliptical Curve.
+If you don't already have an SSH keypair, now is a good time to make one since you'll be able to add it to your .zpreztorc in the next step.  The most common algorithm used for SSH keypairs is RSA, and you should be using a minimum of a 4096-bit key if you do choose RSA.  A newly supported set of Elliptical Curve algorithms are now available though and I highly recommend using ed25519 keypairs if you can.  RSA has some compatibility advantages since its been around longer, and is supported by older versions of OpenSSH, and if you use something like AWS you may find out soon that only RSA keys are supported.  Of course, you're welcome to do what I do and create two keypairs, one which is RSA and one using Elliptical Curve.
 
 In either case, we'll use the tool `ssh-keygen`.
 
