@@ -101,7 +101,6 @@ This will install and set up the EPEL repository locally.
 
 ```
 yum install openvpn easy-rsa
-cp -R /usr/share/easy-rsa/2.0/ /etc/openvpn/easy-rsa/
 ```
 
 ##### 3. Configure the OpenVPN Server
@@ -113,6 +112,7 @@ After putting the configuration in place you need to generate your Diffie-Hellma
 ```
 openvpn --genkey --secret ta.key
 openssl dhparam -out dh2048.pem 2048
+mkdir ccd
 ```
 
 ##### 4. Create Your Certificate Authority (CA)
@@ -151,6 +151,8 @@ When prompted, the 'default' values should be what was provided in the vars file
 ```
 ./build-key dummy-client
 ./revoke-full dummy-client
+cp keys/crl.pem /etc/openvpn/crl.pem
+chmod 644 /etc/openvpn/crl.pem
 ```
 
 ###### Create the symlinks
@@ -160,7 +162,6 @@ Now we need to create symlinks to our configuration folder to make sure everythi
 ln -s /usr/share/easy-rsa/2.0/keys/ca.crt /etc/openvpn/ca.crt
 ln -s /usr/share/easy-rsa/2.0/keys/server.crt /etc/openvpn/server.crt
 ln -s /usr/share/easy-rsa/2.0/keys/server.key /etc/openvpn/server.key
-ln -s /usr/share/easy-rsa/2.0/keys/crl.pem /etc/openvpn/crl.pem
 ```
 
 The last thing to do before calling it quits with setting up the OpenVPN server is setting up a logrotate policy and making sure the service starts successfully.
@@ -229,5 +230,7 @@ The easiest way to distribute these for the system you're configuring the server
 # Outro
 
 I know that many of you were expecting a write-up of configuring OpenVPN on my Ubiquiti EdgeRouter Lite (ER3L).  I decided instead to do it on a DigitalOcean cloud server so that I wouldn't be limited to only my VPN to my home network while traveling.  In this case, OpenVPN is my back-up, but also the one I built out first.  I will be doing a follow-up article about setting up L2TP w/ IPSEC client-VPNs w/ cert-based auth on the Ubiquiti EdgeRouter Lite in the coming weeks, as that will be my primary.  L2TP w/ IPSEC has the advantage of being natively supported on iOS, OS X, and Windows, where OpenVPN requires an additional client.  I can also configure [SideStep](http://chetansurpur.com/projects/sidestep/) to auto-connect to L2TP based VPNs whenever I connect to a public Wi-Fi network.
+
+Additional steps you could take to make this configuration even more secure is to use an auth-script to provide 2FA w/ Google Authenticator + a password via PAM plugins.  I [wrote previously about doing this when using SELinux](https://tristor.ro/blog/2016/04/21/openvpn--google-authenticator--selinux-on-centos-7/).  Another thing might be to set up your own DNS server endpoints and push those through the VPN tunnel.  In my example config above, I rely on Google and Level 3 DNS servers.
 
 Hope this helps out somebody though.  Cheers.
