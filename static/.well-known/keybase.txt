@@ -1,0 +1,72 @@
+==================================================================
+https://keybase.io/tristor
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://tristor.ro
+  * I am tristor (https://keybase.io/tristor) on keybase.
+  * I have a public key with fingerprint 26B4 1281 A0AA 61EE 2CFD  47FA 1915 97E1 CB67 6F29
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01013ef67df4d5823262344862e17c4e37ed8dfb486f59b60ba3fb5b5d6f1c877f4e0a",
+            "fingerprint": "26b41281a0aa61ee2cfd47fa191597e1cb676f29",
+            "host": "keybase.io",
+            "key_id": "191597e1cb676f29",
+            "kid": "01013ef67df4d5823262344862e17c4e37ed8dfb486f59b60ba3fb5b5d6f1c877f4e0a",
+            "uid": "3bdaf8163f657d7fd8d259b0c4fef000",
+            "username": "tristor"
+        },
+        "revoke": {
+            "sig_ids": [
+                "c32e63ec5954ad937d3824ca8a8f10909b23f1d83fabe023551643bce0055c460f"
+            ]
+        },
+        "service": {
+            "hostname": "tristor.ro",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1463353113,
+    "expire_in": 157680000,
+    "prev": "770293a1b66685228a3776b87fc43490ebbf9201852f5639791ce2d156a402ec",
+    "seqno": 35,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtUltsVEUY3gWt6aZAIZAYtYCTkohpmrmcmTlnQ0QNGtFKlAcNUFjnuntS3LM9
+57T26gu8eKWGVFIbQrrcHq2mhDcBCTaCJoaUECWCosRo2oAmJBIvdU6jDyY++jSZ
+f77v+7//m39kyeJcIZ+fWXHv6vVb4vyFH2XuRX/eHwQy0v2gOAi6zMJhdmuTpKWu
+UIMigAgiYizj2nqa+phghonn+QwbxJVnCDfa11a6iqWBZFAKYiWVVDOLlM+59QwU
+oA3YsFo2cS0Oq6mTxUx6CPtIQCEYMgYrqz1uBQoQDbhBSjLOLA4csRIlGcOZkyIx
+7WHkau5SWrD3H/j/2XfPghyRWlgfMWIZ5Zpbx8WOBpVnjYUQZsDExFXxsnHoNA6T
+NIrBcBuITW/UZbJYk7DsPCeguAMogg0jRtGAekIHhGviY08JX/gWwQAGEhOLtE+s
+kAZiQiliHpHKQEip8hi0YKfTdg17Q7UgnoX07+btcRZULY7SSEW7Xb2SprWkmHlK
++2sZ8JUPjSz9rVGSYVW7H3KUXhMnYVQFReSgKg0zUeQxQihBiLQB01cLY1MKMwTl
+zHfTw6yR6XWanEMcEIEkY8ynGPuCcM6kz63yiBdAI6UNMETuzVJGAh4gZbBGlAkP
+YqNANlV3NQJFQp1RUXaaLriqSHtiA4YLr+UfuCuXL+Qa7l6U7W6u0Nj8z0Lvun3P
+fFzsnKvP3vzzjfcHvlmCyvUjm96ef+Lgqu6mzquNU29VLn+SfHbn2IGtI9NbzrVM
+Hu9b81X7sXV7rnwv9Zmepf0fPVvufnfR9PY3K/dtvGWmTrYOPH3gqddbRj4Ornf8
+MvTbtqGjHYNbf94fN5y49sLg0frXB9c89uja2f4npx95cLy1Yd+Nw+OP7+/QZ2g+
+/JS8emN88vlkjF+4MqVOnLqW/+Clb/eODgw39cnGVX9Ec5fmLl/8Yfuh5TeX7Zs8
+PfFQ/fxPo8/tHdrc3HNn58RKsmJ2w3u3xz7vbNp8bvU7Zytrf/391rJDE/XWdc1H
+7h+dWXp65pn64qudG8iXhbHj172Ne4KzXzxc+m5TS+uuvwA=
+=mDyc
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tristor
+
+==================================================================
