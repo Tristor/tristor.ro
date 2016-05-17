@@ -10,7 +10,7 @@ This will be pretty brief, but as many of you know I was in New York City last w
 
 The trip was for business and it was my opportunity to meet my team at Eligible for the first time in person.  As you may know I've been working for them remotely in San Antonio since late December 2015.  Was really cool to meet all my team-mates.  I've been super impressed with the quality of my colleagues at this company and meeting everyone in person just pushed my impressions further over the top.  Lot of really great people working together to try to do something about the sordid state of healthcare technology in the United States.
 
-First up, my team-mate Maksim (Max) enjoys baking bread in his spare time and made a loaf of traditional Belarussian bread to share with the team with the Eligible log emblazoned into it.  Super awesome.
+First up, my team-mate Maksim (Max) enjoys baking bread in his spare time and made a loaf of traditional Belarusian bread to share with the team with the Eligible log emblazoned into it.  Super awesome.
 
 {{% fluid_img "/img/Eligible_Bread.png" %}}
 
