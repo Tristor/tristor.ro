@@ -90,12 +90,12 @@ The theory here is that if all else fails, as long as I keep ahold of Bag 1 (whi
 * Coffee Gear
   - [Hario Slim Burr Grinder Hand-Mill](https://www.amazon.com/Hario-Coffee-Mill-Slim-Grinder/dp/B001804CLY/)
   - [Aeropress Coffee Maker w/ Stainless Steel Filters](https://www.amazon.com/Aerobie-AeroPress-Coffee-Maker-Tote/dp/B0018RY8H0/)
-  - [Cuisinart Perfectemp Induction Kettle](https://www.amazon.com/Cuisinart-CPK-17-PerfecTemp-1-7-Liter-Stainless/dp/B003KYSLNQ/)
+  - ~~[Cuisinart Perfectemp Induction Kettle](https://www.amazon.com/Cuisinart-CPK-17-PerfecTemp-1-7-Liter-Stainless/dp/B003KYSLNQ/)~~
   - [Bubba Ceramic-Lined Travel Mug](http://www.bedbathandbeyond.com/store/product/bubba-reg-tasteguard-travel-mug/3259731)
 * Shoes
-  - [Salomon XR Mission Trail Shoes](https://www.amazon.com/Salomon-XR-Mission-Running-Granny/dp/B00GHPAQ1K) - These have got me to the tops of mountains and can take me anywhere
+  - ~~[Salomon XR Mission Trail Shoes](https://www.amazon.com/Salomon-XR-Mission-Running-Granny/dp/B00GHPAQ1K) - These have got me to the tops of mountains and can take me anywhere [Wearing these there.]~~
   - [New Balance Zante v2 Breathe](http://www.newbalance.com/pd/fresh-foam-zante-v2-breathe/MZANT-V2B.html?dwvar_MZANT-V2B_color=White_with_Impulse_and_Black#color=White_with_Pacific_and_Sonar&width=D) - These are some of the most comfortable city walking shoes made
-  - My trusty cowboy boots, because I'm the only person in the cohort from Texas and they can stand in as dress shoes in a pinch.
+  - ~~My trusty cowboy boots, because I'm the only person in the cohort from Texas and they can stand in as dress shoes in a pinch.~~
 * Clothing (Shirts)
   - [ExOfficio Bugs-Away Shirts x3](https://www.exofficio.com/technology/bugsaway-anti-insect)
   - UnderArmour Golf Shirt x2
@@ -108,7 +108,7 @@ The theory here is that if all else fails, as long as I keep ahold of Bag 1 (whi
   - [ExOfficio Bugs-Away Pants x2](https://www.exofficio.com/technology/bugsaway-anti-insect)
   - [Kuhl Liberator Convertible x2](http://www.kuhl.com/kuhl/mens/pants/liberator-convertible/)
   - [Kuhl Kontra Air](http://www.kuhl.com/kuhl/mens/pants/kontra-air/)
-  - 2 Pairs of Jeans
+  - ~~2 Pairs of Jeans~~
   - Total 8 pants (7 here, 1 in backpack)
 * Clothing (Underwear)
   - [ExOfficio Give-n-Go Boxers x3](https://www.exofficio.com/products/details/mens-give-n-go-boxer-brief)
@@ -134,12 +134,14 @@ The theory here is that if all else fails, as long as I keep ahold of Bag 1 (whi
   - Travel-sized pack of Q-Tips
   - [Downy Wrinkle Releaser Plus](http://www.amazon.com/Downy-Wrinkle-Releaser-Plus-Pack/dp/B018XJ1ZG2/) - This stuff is a lifesaver when traveling, especially for dress clothes
   - Travel-sized Shampoo/Conditioner and Body Wash
+  - Sunscreen
+  - [Shave Secret](http://shavesecret.com/shave-oil/)
 * Nice to Haves
   - Spare compression drysacks
   - Spare compression bags
   - [Dizolve Laundry Detergent Strips x144](http://mydizolve.com/)
   - [Travel Clothes Line](https://www.amazon.com/Lewis-N-Clark-Clothesline-Size/dp/B003MU9JZC)
-  - [Baby Wipes](https://www.amazon.com/Amazon-Elements-Wipes-Sensitive-Flip-Top/dp/B00M4M2W1W)
+  - ~~[Baby Wipes](https://www.amazon.com/Amazon-Elements-Wipes-Sensitive-Flip-Top/dp/B00M4M2W1W)~~
   - [Fast Inflate Travel Pillow](http://shop.eaglecreek.com/fast-inflate-pillow-l/d/1520_cl_-1)
   - [Cat Nap Blanket](http://shop.eaglecreek.com/cat-nap-blanket/d/1137_cl_-1)
   - [Travel Lite Towel](http://shop.eaglecreek.com/travellite-towel-xl/d/1396_cl_-1)
@@ -162,3 +164,7 @@ The theory here is that if all else fails, as long as I keep ahold of Bag 1 (whi
 #### Conclusion
 
 That's the whole kitten caboodle.  Hopefully I fall within the weight limits and I can get all the items on my todo list completed.  Hope this helps somebody else out when preparing.  As the rule says, always take less than you think you need.  I kind of went the opposite route, I figure it's better safe than sorry and to always be prepared.  We'll see how much stuff I end up dumping when I get back from Europe to pack for my South America leg of the journey.  At the very least I plan to be pretty comfortable in Europe with a way to make coffee, the proper gear to look sharp every day, and my portable office environment on the go.
+
+#### Edit 05/21/2016
+
+I am marking off some items that I need to ditch in order to hit the weight limit.  See my newer posts for details.
