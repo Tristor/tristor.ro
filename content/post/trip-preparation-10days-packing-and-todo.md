@@ -93,51 +93,51 @@ The theory here is that if all else fails, as long as I keep ahold of Bag 1 (whi
   - ~~[Cuisinart Perfectemp Induction Kettle](https://www.amazon.com/Cuisinart-CPK-17-PerfecTemp-1-7-Liter-Stainless/dp/B003KYSLNQ/)~~
   - [Bubba Ceramic-Lined Travel Mug](http://www.bedbathandbeyond.com/store/product/bubba-reg-tasteguard-travel-mug/3259731)
 * Shoes
-  - ~~[Salomon XR Mission Trail Shoes](https://www.amazon.com/Salomon-XR-Mission-Running-Granny/dp/B00GHPAQ1K) - These have got me to the tops of mountains and can take me anywhere [Wearing these there.]~~
+  - ~~[Salomon XR Mission Trail Shoes](https://www.amazon.com/Salomon-XR-Mission-Running-Granny/dp/B00GHPAQ1K)~~ - These have got me to the tops of mountains and can take me anywhere [Wearing these there.]
   - [New Balance Zante v2 Breathe](http://www.newbalance.com/pd/fresh-foam-zante-v2-breathe/MZANT-V2B.html?dwvar_MZANT-V2B_color=White_with_Impulse_and_Black#color=White_with_Pacific_and_Sonar&width=D) - These are some of the most comfortable city walking shoes made
   - ~~My trusty cowboy boots, because I'm the only person in the cohort from Texas and they can stand in as dress shoes in a pinch.~~
 * Clothing (Shirts)
   - [ExOfficio Bugs-Away Shirts x3](https://www.exofficio.com/technology/bugsaway-anti-insect)
-  - UnderArmour Golf Shirt x2
+  - UnderArmour Golf Shirt x1
   - [Kuhl Wunderer x2](http://www.kuhl.com/kuhl/mens/long-sleeve/wunderer/)
   - [Kuhl Airspeed](http://www.kuhl.com/kuhl/mens/long-sleeve/airspeed-ls/)
   - Generic Golf Shirt x2
-  - Various Durable Long-Sleeve Shirts x3
-  - Total 14 shirts (13 here, 1 in backpack)
+  - Various Durable Long-Sleeve Shirts x2
+  - Total 12 shirts (11 here, 1 in backpack)
 * Clothing (Pants)
   - [ExOfficio Bugs-Away Pants x2](https://www.exofficio.com/technology/bugsaway-anti-insect)
   - [Kuhl Liberator Convertible x2](http://www.kuhl.com/kuhl/mens/pants/liberator-convertible/)
   - [Kuhl Kontra Air](http://www.kuhl.com/kuhl/mens/pants/kontra-air/)
-  - ~~2 Pairs of Jeans~~
-  - Total 8 pants (7 here, 1 in backpack)
+  - ~~2 Pairs of Jeans~~ [No Jeans :(]
+  - Total 6 pants (5 here, 1 in backpack)
 * Clothing (Underwear)
   - [ExOfficio Give-n-Go Boxers x3](https://www.exofficio.com/products/details/mens-give-n-go-boxer-brief)
   - [ExOfficio Give-n-Go T-Shirt x3](https://www.exofficio.com/products/details/mens-give-n-go-t-shirt)
   - [ExOfficio Bugs-Away Crew Socks x4](https://www.exofficio.com/products/details/mens-bugsaway-travel-crew-sock)
   - [ExOfficio Bugs-Away Ankle Socks x2](https://www.exofficio.com/products/details/mens-bugsaway-hiker-quarter-sock)
-  - UnderArmour Base Layer Shirt
+  - [Nano Fiber Base Layer](https://www.kickstarter.com/projects/elementpure/nanofiber-baselayer-ultra-soft-odor-proof-and-sust)
   - Generic Ankle Socks x10
   - Generic Boxers x12
-  - Generic Under-Shirt x10
-  - Total 16 boxers (15/1), 15 under-shirts (14/1), 17 pairs of socks (16/1)
+  - Generic Under-Shirt x8
+  - Total 16 boxers (15/1), 13 under-shirts (12/1), 17 pairs of socks (16/1)
 * Toiletries
   - Wahl Cordless Trimmers w/ Charger
   - [Dorco Pace 4 Handle Kit](https://www.amazon.com/Dorco-Shaving-System--Cartridges-Handle/dp/B008O84ZQA/)
   - [Dorco Pace 6 Blades x24](https://www.amazon.com/Dorco-Blade-System-Refill-Cartridge/dp/B016P04A6I/)
-  - [Zeiss Eyeglass/Screen Wipes x50](http://www.amazon.com/Zeiss-Pre-Moistened-Lens-Cleaning-Wipes/dp/B0030E4UIQ)
+  - [Zeiss Eyeglass/Screen Wipes x25](http://www.amazon.com/Zeiss-Pre-Moistened-Lens-Cleaning-Wipes/dp/B0030E4UIQ) [Reduced Count]
   - Extra quart-sized Ziploc bags
   - Toothbrush/Toothpaste
   - [Juniper Ridge Trail Resin Cologne](https://juniperridge.com/shop/siskiyou-trail-resin-cologne/)
   - Drakkar Noir
   - Davidoff Cool Water
-  - Unscented Deoderant
+  - ~~Unscented Deoderant~~ [Will purchase in Prague]
   - Travel-sized pack of Q-Tips
   - [Downy Wrinkle Releaser Plus](http://www.amazon.com/Downy-Wrinkle-Releaser-Plus-Pack/dp/B018XJ1ZG2/) - This stuff is a lifesaver when traveling, especially for dress clothes
-  - Travel-sized Shampoo/Conditioner and Body Wash
+  - ~~Travel-sized Shampoo/Conditioner and Body Wash~~ [Will purchase in Prague]
   - Sunscreen
   - [Shave Secret](http://shavesecret.com/shave-oil/)
 * Nice to Haves
-  - Spare compression drysacks
+  - ~~Spare compression drysacks~~ [moved to carry-on 1]
   - Spare compression bags
   - [Dizolve Laundry Detergent Strips x144](http://mydizolve.com/)
   - [Travel Clothes Line](https://www.amazon.com/Lewis-N-Clark-Clothesline-Size/dp/B003MU9JZC)
@@ -157,9 +157,9 @@ The theory here is that if all else fails, as long as I keep ahold of Bag 1 (whi
       * Cipro (by Rx)
       * Albuterol HFA (by Rx)
 * [Patagonia Rainshadow Jacket](https://www.rei.com/product/894312/patagonia-stretch-rainshadow-jacket-mens)
-* [ExOfficio Round-Trip Convertible Jacket](https://www.exofficio.com/products/details/mens-round-trip-convertible-jacket)
 * [ExOfficio Bugs-Away Ball Cap](https://www.exofficio.com/products/details/bugsaway-embroidered-classic-cap)
 
+##### Boarding  Jacket [ExOfficio Round-Trip Convertible Jacket](https://www.exofficio.com/products/details/mens-round-trip-convertible-jacket)
 
 #### Conclusion
 

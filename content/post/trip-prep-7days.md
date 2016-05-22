@@ -20,6 +20,10 @@ I had a little get-together last night to say good-bye.  Unfortunately due to my
 
 Bags have been packed initially, but I am going to have to figure some things out.  My carry-on #2 is about 1.7 pounds over weight, and my checked baggage is 8 pounds over weight. I can probably chance it with the carry-on bag, but the checked bag I'm definitely going to have to trim down.  I'm thinking I'll have to ditch my cowboy boots and long socks, and a few pairs of jeans, plus some of the nice-to-haves to make it fit.  Not the end of the world, but regretful since I was hoping I could get the boots on the trip.
 
+###### Updated #2
+
+I ditched 2 undershirts, 1 long-sleeve shirt, 1 golf shirt, 2 pairs of jeans, some of my toiletries, all the boot-length socks, and my cowboy boots.  I'll now be wearing the XR Mission shoes so I only had to pack one pair in the suitcase.  This got me from 58 pounds to 48.7 pounds for my checked bag.  I'll have to buy some toiletries when I get to Prague, but otherwise it should be fine.  When I repacked I also worked on balancing the weight in the bag a little better as well, which may have had an effect when weighing using the hand-held luggage scale.  I won't be cutting any weight on my carry-on for the trip to Prague, but may do so before I board the bus.
+
 ##### To-Do List
 
 * Get my Hepatitis B vaccine booster (30 day out dose, now late because of illness)
@@ -30,11 +34,5 @@ Bags have been packed initially, but I am going to have to figure some things ou
 * ~~Prepare a travel packet of information, ship one copy out-of-state to my parents, and give the other copy to my long-time housemate~~
 * ~~Get out of jury duty~~
 * ~~Pack my bags and weigh them.~~
-  - Checked bag cannot exceed 50 pounds (23 KG) (need to cut 8 pounds, but otherwise good)
-  - Carry-On bags cannot exceed 23 pounds (10 KG) (10.9KG but otherwise good)
-
-
-Currently in the process of cutting down my baggage weight, and then need to do the ER3L setup and write-up this weekend  (look for this soon).
-
-
- 
+  - ~~Checked bag cannot exceed 50 pounds (23 KG)~~ [22.1KG]
+  - ~~Carry-On bags cannot exceed 23 pounds (10 KG)~~ [10.9KG but otherwise good]
