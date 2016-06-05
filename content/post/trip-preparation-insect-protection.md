@@ -216,8 +216,8 @@ Hydroxyethyl isobutyl piperidine carboxylate, more commonly known as Picaridin a
 
 ##### Options
 
-* [Sawyer 20% Picaridin Lotion and Spray](http://www.amazon.com/Sawyer-Products-Premium-Repellent-Picaridin/dp/B01BWMJT0Q)
-* [Avon Guard Skin-So-Soft with 10% Picaridin](www.amazon.com/Avon-Guard-Plus-Picaridin-Spray/dp/B00CEC7WOY/)
+* [Sawyer 20% Picaridin Lotion and Spray](https://www.amazon.com/Sawyer-Products-Premium-Repellent-Picaridin/dp/B01BWMJT0Q)
+* [Avon Guard Skin-So-Soft with 10% Picaridin](https://www.amazon.com/Avon-Guard-Plus-Picaridin-Spray/dp/B00CEC7WOY/)
 
 ##### More Information
 
