@@ -55,7 +55,7 @@ Here's some photos from that:
 
 {{% fluid_img "/img/K10_Coworking_Space.png" %}}
 
-Photo of me in front of K10 taken by my roomie.  If couldn't tell, my favorite color is blue.
+Photo of me in front of K10 taken by my roomie.  If you couldn't tell, my favorite color is blue.
 
 {{% fluid_img "/img/Me_At_K10.png" %}}
 
@@ -111,7 +111,7 @@ Spent quite a bit more time than planned working today but managed to still brea
 
 That all brings me to here, where I leave you until next time.  Before I go though I want to give my readers a heads up that I will likely only be posting photos and more extensive posts on the weekends and be concentrating on trying to write some more tech related content soon during the week.  I've also finally started an Instagram account which is now in the sidebar.  Feel free to follow me.
 
-All that said, I also wanted to call attention to another member of my RY cohort, none other than Mr. Eddie Contento.  Eddie has start a Vlog as part of his journey and is getting some awesome video of the group's activities this week (and hopefully throughout our trip).  I really loved his [intro video](https://www.youtube.com/watch?v=FEVCMdWQPn4) and I'm hoping to see more.  If you like it to, definitely consider subscribing to his Youtube channel.  You may see me in some of the videos although I'm usually pretty good at staying behind the camera rather than in front of it :)
+All that said, I also wanted to call attention to another member of my RY cohort, none other than Mr. Eddie Contento.  Eddie has start a Vlog as part of his journey and is getting some awesome video of the group's activities this week (and hopefully throughout our trip).  I really loved his [intro video](https://www.youtube.com/watch?v=FEVCMdWQPn4) and I'm hoping to see more.  If you like it too, definitely consider subscribing to his Youtube channel.  You may see me in some of the videos although I'm usually pretty good at staying behind the camera rather than in front of it :)
 
 Eddie also photographed this awesome sculpture today:
 
