@@ -36,11 +36,15 @@ A passerby took a photo of myself and part of our group outside Lucerna, the nig
 
 I really got back into photography only about a year ago, but have found it to be a hobby that is both relaxing and revealing of both myself and my photographic subjects.  One way in which it's already changed me in some ways is that I used to not be a fan of insects in general (putting it mildly) and after getting a macro lens and taking photos of insects I now find them fascinating rather than creepy.  During this trip I've had another such transformative experience with photography.  I've heavily resisted taking photos of people or sharing any of the photos I've taken of people in the last year as my focus has been on wildlife, landscapes, birds, and insects.  During the trip though, I've had several great opportunities to do portraiture, and I've found I'm not half bad.  So with the permission of my subjects, I'd like to share a few of the portraits I took this week.
 
-A group of us went to Reigrovy Sady, a park near where we're staying in Prague to watch the sun set on Thursday June 9th.  We brought some good wine, some cheese, and other snacks, and it was a blast. While there, I tried my hand at getting some candid portraits of a few of the participants.
+A group of us went to Reigrovy Sady, a park near where we're staying in Prague to watch the sun set on Thursday June 9th.  We brought some good wine, some cheese, and other snacks, and it was a blast. While there, I tried my hand at getting some portraits of a few of the participants.
 
-Here's Alicia, one of our group laughing while talking with someone.
+Here's a candid portrait of Alicia, laughing while talking with someone.
 
 {{< flickr user="totaledcow" id="27564193196" title="Alicia at Reigrovy Sady, Prague" src="https://c5.staticflickr.com/8/7340/27564193196_c04f93acbc_c.jpg" w="800" h="534" >}}
+
+Here's David, posing for his photo, looking like a baller.
+
+{{< flickr user="totaledcow" id="27585485066" title="David Posed Portrait at Reigrovy Sady" src="https://c3.staticflickr.com/8/7413/27585485066_386f91c92a_c.jpg" w="800" h="534" >}}
 
 A group of us had gone earlier in the same day to watch the sun rise from Charles Bridge, which affords us a view of the Prague Castle and other parts of the skyline very nicely.  Of course no sunrise watching would be complete without mimosas! Here's a group photo from that morning:
 
@@ -50,7 +54,11 @@ Here's a smaller group photo with Prague Castle in the background:
 
 {{% fluid_img "/img/Sunrise_Group_with_Prague_Castle_in_Background.jpg" %}}
 
-During our sunrise party on the Charles Bridge, I asked if anyone wanted to pose for portraits.  Several people took me up on that offer.  In this one, I had just told a joke and got Meera laughing which is when I snapped the photo.  I think it turned out pretty great :)
+During our sunrise party on the Charles Bridge, I asked if anyone wanted to pose for portraits.  Several people took me up on that offer.  First up was Angela who posed perfectly to get the entirety of Prague Castle in the frame.
+
+{{< flickr user="totaledcow" id="27519714642" title="Angela Portrait on Charles Bridge with Old Prague Castle in the Distance" src="https://c3.staticflickr.com/8/7695/27519714642_2693be39e3_c.jpg" w="800" h="534" >}}
+
+In this one, I had just told a joke and got Meera laughing which is when I snapped the photo.  I think it turned out pretty great :)
 
 {{< flickr user="totaledcow" id="27527584481" title="Meera Laughing with Prague Castle" src="https://c2.staticflickr.com/8/7611/27527584481_0f13abedee_c.jpg" w="534" h="800" >}}
 
@@ -58,7 +66,9 @@ By the time Dhivya got into place for her portrait, nobody in our group could st
 
 {{< flickr user="totaledcow" id="27611326305" title="Dhivya Laughing Portrait with Prague Castle in Background" src="https://c2.staticflickr.com/8/7277/27611326305_f6136e423f_c.jpg" w="800" h="534" >}}
 
-This post may be edited in the near future if I get permission from other folks to post the photos I took of them.
+Here's Meera and Angela together with the tower at the entrance to Charles Bridge in the background.
+
+{{< flickr user="totaledcow" id="27519715842" title="Angela and Meera on Charles Bridge" src="https://c3.staticflickr.com/8/7535/27519715842_bde5cd51dc_c.jpg" w="800" h="534" >}}
 
 ####  More Photos From Around Prague
 
