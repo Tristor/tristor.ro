@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Talking To The Machine</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <style type="text/css">
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+
+# Talking To The Machine
+#### By: Tyler Duzan
+
+
+???
+
+Expected presentation run-time is 30-45 minutes
+---
+
+# Who Am I?
+
+* Early start with computing
+* Started programming at 6 years old
+* Various technical roles across industries over the last 10+ years
+* Have worked in many languages over the years, primarily BASIC, C, C++, Perl, Python, Ruby, Golang, and Lua.
+* I don't consider shell languages as programming languages, but am extremely fluent in BASH, KSH, and ZSH
+* Currently at Eligible Inc. as a Senior Technical Operations Engineer
+  - Eligible is a healthcare technology startup.  We are entirely a Ruby and Golang shop.
+* Most used programming language is Perl
+* Favorite programming language is Golang
+
+
+???
+
+Talk it out, make it brief.
+
+---
+
+# Talk Outline
+
+1. How do computers "think" and making it easier for humans
+2. General concepts in programming
+3. Operators
+4. Keywords
+5. Flow Control
+6. Putting it all together
+7. Debugging and Stack Traces
+8. Questions?
+
+#### Please Hold Questions Until The End!
+---
+
+# How Do Computers "Think"?
+
+* Binary representations of information, both instructions and data in memory
+  - Binary is a series of 1s and 0s, meaning "on" and "off" from a voltage sense
+  - Instructions can be simplified by hardware support, such as the x86 instruction set common to modern CPUs
+* People don't think in terms of binary, we think in terms of possibilities
+* Programming languages are a way to get closer to standard prose while meeting formal logic requirements so that the result can be turned into "machine language"
+* When we talk to the machine we must be explicit.  There is no understanding on the computer's part of context or intention, merely instruction.
+* There are many programming languages.  In most cases it does not matter which one you use (in the general case), but some are built for a specific purpose.
+* In general, statically typed and compiled languages perform faster (execution speed) than dynamically typed or interpreted languages, but the latter are easier to learn and use.
+
+---
+
+# How Do Computers "Think"?
+
+* Variables are typically associated to a "type".  In "strongly typed" languages these are very explicit such as:
+  - Integer (a whole number)
+  - Float or Real (a fractional number)
+  - Character (a binary character)
+  - String (A series of characters)
+  - Array/List (A collection of objects)
+  - Hash/Dict (A key/value representation of a collection of objects)
+  - Pointer (an address in memory, which may contain something else)
+* In "weakly typed" languages, these can be declared explicitly but shift type based on usage or be declared as more generic types
+  - Scalar (Anything which is singular, such as integer, string, float, char)
+  - Array (Non-keyed collection)
+  - Hash (Keyed collection)
+  
+---
+
+# How Do Computers "Think"?
+
+* All of the things we've discussed so far are designed to make it easier for humans to understand the computer and for the computer to understand humans.
+* Everything is ultimately just a collection of binary data in memory, which is just voltage being "on" or "off" for a particular 'bit' of memory
+* Statements are connected by logical operators, which use Boolean logic.  That is, simple statements of truth or untruth.  In most cases, truth continues program flow, untruth diverts program flow, although this can be changed.
+
+---
+
+# General Concepts in Programming
+
+* A program consists of a series of "statements".  These statements may end with a special character (often a semicolon ';') depending on language
+* Statements might do something such as declare a variable, a modifiable area of computer memory which can contain data, create a new object, or perform an action.
+* Statements are usually organized into blocks of code, these can be in the form of modules, classes, or methods/functions.
+* The entire program is executed either in order by an interpreter or compiled into machine language by a compiler.  In both cases, the statements determine what actions the computer executes.
+
+---
+
+# Operators
+
+Boolean Operators:
+
+* AND == && == & == ^ (depends on language).
+* OR == || == | == &or; (depends on language).
+* NOT == !! == ! == &not; (depends on language).
+* XOR
+
+Equality Operators:
+
+* &gt;
+* &lt;
+* = or == or ===
+* <=
+* `>=`
+* !=
+* <=> (not in all languages)
+
+---
+
+# Operators
+
+Assignment Operators:
+
+* = - Simple Assignment
+* += (or =+) Add and then assign
+* -= (or =-) Subtract and then assign
+* *= (or =*) Multiply and then assign, using two operands
+* /=
+* %=
+* **=
+
+---
+
+# Keywords
+
+The "keywords" or "built-ins" depend greatly upon the language, but some are heavily common.  These are typically things which begin a statement and define the type of statement that it is.  These may also be "reserved words", ones which the compiler/intrepreter will not allow to be used as variable names
+
+Example Keywords:
+
+* `class`
+* `if` `then` `else`
+* `func` `def` `function`
+* `int` `str` `void`
+
+Not every language has the same keywords.
+
+---
+
+# Flow Control
+
+* There are two types of flow control: conditionals and loops
+  - Conditionals determine whether a set of statements should be executed based on the truthiness of evaluating the condition
+  - Loops repeat the same set of statements and determine if they should be executed based on the truthiness of evaluating some conditions
+
+Simple Examples:
+
+```
+a = 1
+if a == 1
+  puts 'True!'
+elsif a = 2
+  puts 'False!'
+end
+```
+Will print "True!"
+```
+b = 5
+i = 0
+while i <= b do
+  puts "Inside the loop i = #{i}"
+  i += 1
+end
+```
+Will print that i = 0 - i = 5.
+
+---
+
+# Putting It All Together
+
+```ruby
+class Fruit
+  attr_accessor :type
+  def initialize(type)
+    @type = type
+  end
+  
+  def tasty?
+    if @type.downcase == 'apple' ||  @type.downcase == 'banana'
+      return true
+    else
+      return false
+    end
+  end
+end
+
+a = Fruit.new('apple')
+b = Fruit.new('banana')
+c = Fruit.new('crabapple')
+d = Fruit.new('durian')
+
+fruits = [ a, b, c, d ]
+```
+
+---
+
+# Putting It All Together, continued
+
+```ruby
+fruits.each do |fruit|
+  if fruit.tasty?
+    puts "#{fruit.type}s are tasty!"
+  else
+    puts "#{fruit.type}s are not tasty!"
+  end
+end
+
+puts "It's just an opinion man!"
+```
+
+---
+
+# Debugging and Stack Traces
+
+The stack is first in, last off.  Meaning that when you call a method, and that method calls a method, and so on you can end up with very deep stacks.  When an error occurs, most intepreters or debuggers will rewind the stack by providing a "backtrace".  This lets you understand where the first caller was and mentally rebuild program state to understand why the error happened.  Shorter stacks are easier to debug than deeper stacks, so keep this in mind when writing programs.
+
+An example simple error:
+
+```ruby
+a.thismethodoesntexist
+```
+
+`NoMethodError: undefined method 'thismethoddoesntexist' for #<Fruit:0x007fdc430c8f60 @type="apple">`
+
+
+---
+class: center, middle
+
+# Any Questions?
+
+    </textarea>
+    <script src="/.scripts/remark.min.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
