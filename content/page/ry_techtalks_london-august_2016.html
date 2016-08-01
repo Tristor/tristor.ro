@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Basic InfoSec for Business Travelers</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <style type="text/css">
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+
+# Welcome to the Cloud:
+## Introduction to Linux System Operations
+#### By: Tyler Duzan
+
+
+???
+
+Expected presentation run-time is 30 minutes
+---
+
+# Who Am I?
+
+* Early start with computing
+* Various technical roles across industries over the last 10+ years
+* Learned security through direct practice
+* Previously at Rackspace
+  - Senior role in operations as part of Rackspace Cloud
+  - Global Technical Product Owner for Linux Operating Systems
+  - Internal subject matter expert (SME) on identity management and security
+* Currently at Eligible Inc. as a Senior Technical Operations Engineer
+  - Eligible is a healthcare technology startup which means our focus is heavily on information security and compliance
+
+???
+
+Talk it out, make it brief.
+
+---
+
+# Talk Outline
+
+1. Talk Series Format/Setup
+2. What is the Cloud Anyway?
+3. What is Linux?
+4. Why Linux?
+5. Getting Started with Vagrant and VirtualBox
+6. Demo Time
+7. Conclusion / Things to Explore
+
+##### Please Hold Questions Until The End!
+---
+
+# Talk Series Format/Setup
+
+* I plan to have multiple parts to this topic in a series of talks
+* All tools I will present during this series will be compatible with Windows, OS X, and Linux
+* To follow along it is required to have a laptop with Vagrant and VirtualBox installed (both free)
+
+### If you didn't previously setup Vagrant and VirtualBox do so now please
+
+---
+
+# What is the Cloud Anyway?
+
+* The Cloud consists of:
+  - Agility
+  - Elasticity
+  - Multi-Tenancy
+  - Location Independence
+  - Automatable Controls
+* Types of Cloud Services
+  - IaaS: Infrastructure as a Service
+    * The basic building blocks of computing at scale like servers, storage, and networking
+  - PaaS: Platform as a Service
+    * The services built on top of infrastructure that let you do useful things, such as
+      - Identity/Access Management
+      - Auto-Scaling
+      - Application Provisioning
+
+---
+
+# What is the Cloud Anyway?
+
+* Types of Cloud Services, cont.
+  - SaaS: Software as a Service
+    * Typically built on top of IaaS or PaaS
+    * The consumer (or business) facing product that is being sold and used.
+    * Examples:
+      - GMail
+      - Zendesk
+      - Github
+      - Slack
+      - NetSuite
+      - SalesForce
+* Follows the "Service Layer Model"
+* The snarky answer is the Cloud is just somebody else's computer
+
+---
+
+# What is the Cloud Anyway?
+
+![Cloud Is Just Somebody Else's Computer](/slide_img/cloud_somebody_else.png)  
+![XKCD The Cloud](/slide_img/xkcd_cloud.png)  
+
+---
+
+# What is Linux?
+
+* Project began in 1991
+* Originally created by Linus Torvalds, a Finnish man.
+* Currently the largest open source free software project in existence with more than 9000 developers and over 500 companies involved over its lifetime
+* Based off the POSIX standards which governed the various commercial UNIX operating systems during the 80s and 90s.
+* Especially well suited for being run on servers
+* Because it's free and open source, anyone can use it and modify it.
+* Linux itself is just the OS kernel and must be combined with other software to be a functioning operating system.
+* Functioning OSes based on Linux are called distros or distributions.  Examples:
+  - Ubuntu
+  - Debian
+  - Red Hat Enterprise Linux (RHEL)
+  - CentOS
+  - Gentoo
+  - Arch Linux
+
+---
+
+# Why Linux?
+
+* Almost all configuration of the OS itself and common software packages is done with text files which are easy to manipulate via automation tools
+* The kernel itself is very fully featured so allows you to build a functional system in a small amount of space/overhead
+* Has exceptional TCP/IP networking capabilities making it especially well suited for building infrastructure components
+* Has strong security when implemented properly
+* Is extremely reliable, allowing almost indefinite uptime barring unusual circumstances
+* Is built around one of the most rigorously engineered standards for a server-focused operating system, POSIX
+* Has been around long enough to be considered mature software
+
+---
+
+# Getting Started with Vagrant and VirtualBox
+
+* VirtualBox is a free virtualization platform that lets you run virtual machines
+  - Virtual machines are conceptually smaller computers running inside your computer with their own operating system installed
+* Vagrant is a developer-focused wrapper for VirtualBox that makes it simple to manage and automate the building of virtual machines
+* `vagrant init debian/jessie64` or `vagrant init centos/7`
+* `vagrant up`
+* `vagrant ssh`
+
+##### See [https://www.vagrantup.com/docs/getting-started/index.html](https://www.vagrantup.com/docs/getting-started/index.html) for more information.
+
+---
+class: middle, center
+
+# Demo Time!
+
+---
+
+# Conclusion
+
+* The Cloud is just a series of abstractions layered on top of each other to make using complex systems easier
+* Anyone can make use of the Cloud for everything from simple websites to very complex systems
+* Linux is about flexibility and freedom
+* Systems Operations is about reliability, security, and repeatability through automation
+
+# Things to Explore
+
+* Configuration Management Tools: *Chef*, Puppet, Salt, Ansible
+* Web Servers: *Nginx*, *Caddy*, Apache, lighttpd
+* Email MTAs: *Postfix*, qmail, sendmail, Exim, OpenSMTPd
+* Email Post Office Services: *Dovecot*, Courier
+* VPN Services: *OpenVPN*, StrongSWAN, SoftEther, Tinc
+* Database Servers: *PostgreSQL*, MySQL/MariaDB/*Percona*, MongoDB, Cassandra 
+* Other Services: Asterisk, OwnCloud, GitLab, Ampache/Koel/CherryMusic, Plex
+
+---
+
+class: center, middle
+
+# Any Questions?
+
+    </textarea>
+    <script src="/.scripts/remark.min.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
