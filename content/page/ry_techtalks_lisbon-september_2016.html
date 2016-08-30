@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome to the Cloud: Intro to Linux System Operations</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <style type="text/css">
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+
+# Making Magic With Nginx:
+## Introduction to Linux System Operations, Part 2
+#### By: Tyler Duzan
+
+
+???
+
+Expected presentation run-time is 30 minutes
+---
+
+# Who Am I?
+
+* Early start with computing
+* Various technical roles across industries over the last 10+ years
+* Learned security through direct practice
+* Previously at Rackspace
+  - Senior role in operations as part of Rackspace Cloud
+  - Global Technical Product Owner for Linux Operating Systems
+  - Internal subject matter expert (SME) on identity management and security
+* Currently at Eligible Inc. as a Senior Technical Operations Engineer
+  - Eligible is a healthcare technology startup which means our focus is heavily on information security and compliance
+
+???
+
+Talk it out, make it brief.
+
+---
+
+# Talk Outline
+
+1. Talk Series Format/Setup
+2. Why Nginx?
+3. Wordpress Prerequisites
+4. Set Up Your VM
+5. Demo Time
+6. Conclusion / Things to Explore
+
+##### Please Hold Questions Until The End!
+---
+
+# Talk Series Format/Setup
+
+* I plan to have multiple parts to this topic in a series of talks
+* This presentation assumes for the purposes of demonstration that you'll be working within a local VM inside Vagrant w/ the Linux distribution of your choice.
+* To follow along it is required to have a laptop with Vagrant and VirtualBox installed (both free)
+
+### If you didn't previously setup Vagrant and VirtualBox do so now please
+
+---
+
+# Why Nginx?
+
+* Architected to do one simple function as fast as possible (serve sockets)
+* Flexible, but not by including the kitchen sink (compile-in modules)
+* For all intents and purposes, is the fastest performing web server
+* Easy to understand configuration which is declarative
+* Sane defaults
+* Constantly improving
+
+---
+
+# Wordpress Prerequisites
+For the purposes of this presentation we'll be installing Wordpress.  Wordpress requires the following:
+
+* A web server - Nginx
+* A database server - Percona
+* PHP 5 or later - PHP-FPM
+
+We'll additionally need some prerequisites for doing the more advanced portion of the demo:
+
+* A TLS library - OpenSSL [:(]
+
+---
+
+# Set Up Your VM
+
+* First, create a new Vagrant VM by making a new folder on your system and using `vagrant init`
+* Install Wordpress Prerequisites, for the purpose of this demo I will be using Debian 8
+  - Nginx: https://nginx.org/en/linux_packages.html#mainline
+  - Percona: https://www.percona.com/downloads/Percona-Server-5.7/LATEST/
+  - PHP-FPM: `apt-get install php5-fpm php5-mcrypt php5-mysqlnd php5-curl php5-mbstring php5-imagick`
+  - OpenSSL: `apt-get install openssl openssl-dev`
+* A Good DHParam and Self-Signed Certificate: https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-nginx-in-ubuntu-16-04
+* SSL Configuration: https://mozilla.github.io/server-side-tls/ssl-config-generator/?server=nginx-1.10.1&openssl=1.0.1e&hsts=yes&profile=modern
+
+---
+
+# Set Up Your VM, Cont.
+
+* Wordpress Install: https://codex.wordpress.org/Installing_WordPress
+* Download Wordpress: https://wordpress.org/download/
+* Simple Guide to Install Wordpress: https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-on-centos-7
+* Tune PHP-FPM:
+  - php.ini
+    * cgi.fix_pathinfo=0
+  - www.conf:
+    * pm.min_spare_servers = 1
+    * pm.max_spare_servers = 3
+    * pm.start_servers = 2
+    * pm.max_children = 5
+* Configure Nginx
+
+---
+class: middle, center
+
+# Demo Time!
+
+---
+
+# Conclusion
+
+* Wordpress is a popular content management and blogging platform
+* It's a fairly simple matter to install Wordpress on your own Linux server
+* Nginx + PHP-FPM require minimal tuning in order to be performant
+* Configuring strong TLS is pretty easy, especially with the Mozilla tools
+* For $5/mo + the cost of a domain you could be rocking your own blog :)
+
+# Next Up?
+
+* Linux Server Hardening?
+* Your Own Secure Email w/ Postfix and Dovecot?
+* Your Own VPN Server with OpenVPN?
+* Data Modeling and Why You Probably Don't Really Want MongoDB?
+
+---
+# Things to Explore
+
+* Configuration Management Tools: *Chef*, Puppet, Salt, Ansible
+* Web Servers: *Nginx*, *Caddy*, Apache, lighttpd
+* Email MTAs: *Postfix*, qmail, sendmail, Exim, OpenSMTPd
+* Email Post Office Services: *Dovecot*, Courier
+* VPN Services: *OpenVPN*, StrongSWAN, SoftEther, Tinc
+* Database Servers: *PostgreSQL*, MySQL/MariaDB/*Percona*, MongoDB, Cassandra 
+* Other Services: Asterisk, OwnCloud, GitLab, Ampache/Koel/CherryMusic, Plex
+
+---
+
+class: center, middle
+
+# Any Questions?
+
+    </textarea>
+    <script src="/.scripts/remark.min.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
