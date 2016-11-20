@@ -34,33 +34,39 @@ paginate = 10
     identifier = "home"
     url = "/"
   [[menu.main]]
-    name = "Posts"
-    pre = "<i class='fa fa-list fa-fw'></i>"
-    weight = 2
-    identifier = "post"
-    url = "/post/"
-  [[menu.main]]
-    name = "Topics"
-    pre = "<i class='fa fa-folder fa-fw'></i>"
-    weight = 3
-    identifier = "topic"
-    url = "/topics/"
-  [[menu.main]]
-    name = "Tags"
-    pre = "<i class='fa fa-tags fa-fw'></i>"
-    weight = 4
-    identifier = "tag"
-    url = "/tags/"
-  [[menu.main]]
     name = "About"
     pre = "<i class='fa fa-user fa-fw'></i>"
     weight = 1
     identifier = "about"
     url = "/about/"
   [[menu.main]]
+    name = "Posts"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    weight = 2
+    identifier = "post"
+    url = "/post/"
+  [[menu.main]]
+    name = "Gallery"
+    pre = "<i class='fa fa-camera fa-fw'></i>"
+    weight = 3
+    identifier = "gallery"
+    url = "/gallery/"
+  [[menu.main]]
+    name = "Topics"
+    pre = "<i class='fa fa-folder fa-fw'></i>"
+    weight = 4
+    identifier = "topic"
+    url = "/topics/"
+  [[menu.main]]
+    name = "Tags"
+    pre = "<i class='fa fa-tags fa-fw'></i>"
+    weight = 5
+    identifier = "tag"
+    url = "/tags/"
+  [[menu.main]]
     name = "Resume"
     pre = "<i class='fa fa-user fa-fw'></i>"
-    weight = 5
+    weight = 6
     identifier = "resume"
     url = "/resume/"
 
