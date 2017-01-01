@@ -8,7 +8,7 @@ topics = ["me"]
 ## About Me
 
 
-{{% fluid_img "/img/me.jpg" %}}
+{{% fluid_img "/img/belgrade_haircut.jpg" %}}
 
 
 I am many things, but perhaps most of all I am a life-long learner.  I aspire to become a renaissance man, although I see the journey ahead as being long (and a whole lot of fun).  My interests are fairly broad, and I tend to pick up new hobbies and interests often, delve deeply into them, and then file them away to make room for the next.
@@ -55,6 +55,7 @@ Gear:
 
 - Nikon D7200
 - (want) Nikon D750
+- Sony DSC-RX100 Mk V
 - Nikon 300mm f/4D IF-ED AF-S
 - Nikon 300mm f/4E PF ED AF-S VR
 - (want) Nikon AF-S NIKKOR 500mm f/4E FL ED VR Lens
