@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Basic InfoSec for Business Travelers</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <style type="text/css">
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      div.bio {
+        margin: 5px;
+        padding-bottom: 5px;
+      }
+      .bio-photo { 
+        float: right;
+        margin: 0px;
+      }
+      .bio-text {
+        float: left;
+        margin: 0px;
+        font-size: medium;
+      }
+      div.appeal-contact {
+        margin: 5px;
+        padding-top: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+
+# Basic InfoSec for Business Travelers
+#### By: Tyler Duzan
+
+
+???
+
+Expected presentation run-time is 40 minutes
+---
+name: bio
+# Who Am I?
+
+.bio[
+.right[.bio-photo[![Me in Lisbon](/img/lisbon_haircut.jpg)]]
+
+.left[.bio-text[I'm Tyler Duzan, part of the Remote Year - Darien group.  I've been doing technical and security stuff since my childhood and professionally for over 12 years.  I've had the advantage of learning by experience from some of the best people in and out of the industry in the information security space.  During my career I've been awarded security bug bounties by Mozilla for identifying flaws in the Firefox web browser.  I've worked as the senior operations person on Rackspace Cloud, during which I was identified as the SME for identity and security, named global technical owner for Linux, and identified and fixed numerous security flaws both inside our products as well as helping open-source projects.  Most recently I've been part of a small group of engineers that helped a healthcare technology startup get the prestigious SOC II and HITRUST compliance certifications.]]
+]
+
+.appeal-contact[
+.center[.appeal[Currently, I'm funemployed and looking.  If your company or team need an exceptionally experienced operations/security engineer and are open to remote work, look no further and please reach out to me directly.]]
+
+.center[.contact[My website is at https://tristor.ro/ and you can contact me at tristor@tristor.ro via ProtonMail or at tristor@gmail.com via PGP]]
+]
+
+???
+
+Talk it out, make it brief.
+
+---
+
+# Talk Outline
+
+1. Why Security Is Important?
+2. Types of Risks You May Encounter
+3. High-Level Overview of Mitigation Strategies
+4. Conclusion/Questions
+
+##### Please Hold Questions Until The End!
+---
+
+# Why Security Is Important?
+
+* Businesses store data about customers and employees
+  - As of 2015, approximately 15 million US citizens are impacted by identity theft yearly with *economic losses in excess of $50 Billion*.
+* Businesses store data about their own operations, research, etc.
+  - Economic espionage is on the rise, especially foreign companies targeting US companies for trade secrets
+  - As of 2015, estimates range as high as *$500 billion in yearly economic losses* from economic espionage against US companies
+  
+???
+
+Sources are available in my presentation notes but excluded from the slide for brevity.
+
+1. http://www.identitytheft.info/victims.aspx
+2. http://www.cnn.com/2015/07/24/politics/fbi-economic-espionage/
+3. http://www.theepochtimes.com/n3/326002-the-staggering-cost-of-economic-espionage-against-the-us/
+4. http://www.hackmageddon.com/2016/06/01/april-2016-cyber-attacks-statistics/
+5. https://www.theguardian.com/technology/2015/jan/20/laptop-stolen-what-i-learned
+6. https://www-ssl.intel.com/content/dam/doc/case-study/mobile-computing-security-eu-benchmark-study.pdf
+7. https://www.fbi.gov/about-us/investigate/counterintelligence/business-brochure
+8. https://www.symantec.com/security-center/threat-report
+
+---
+
+# Why Security Is Important? cont.
+
+* Businesses are the primary non-governmental targets of cyber attacks
+  - More than 1/3rd of cyber attacks target "Industry", with 11.5% of cyber attacks **specifically targeting hotels and hospitality**
+  - More than 70% of cyber attacks are considered to be motivated by cybercrime, followed closely by cyber espionage making up around 10% of attacks.
+* Travelers are more susceptible to theft, especially of laptops and other electronics
+   - _**A laptop is stolen every 53 seconds**_
+   - Laptops are most commonly stolen in bars, restaurants, and on public transportation
+   - _**One of the top 3 sources of business data breaches is stolen employee laptops**_
+   - More than half of stolen laptops are during business travel
+   - Laptop theft accounts for more than *12 Billion Euros in losses annually*, not counting the losses associated to data on the laptops 
+   
+???
+
+Sources in notes of previous slide regarding these statements as well.
+
+1. http://www.pcworld.com/article/3021316/security/why-stolen-laptops-still-cause-data-breaches-and-whats-being-done-to-stop-them.html
+2. http://www.databreachtoday.com/data-breach-another-stolen-laptop-a-4272
+3. https://epic.org/privacy/vatheft/
+
+
+---
+
+# Types of Risks You May Encounter
+
+* Service Compromise
+* System Compromise
+* Theft/Robbery
+* System Failure
+* Data Loss
+
+???
+
+There are other risks, but these are the biggest and the primary focus of the talk.
+
+---
+
+# Service Compromise
+
+![HaveIBeenPwned Stats June 2016](/slide_img/hibp_june2016.png)
+![Gemalto Data Breach Stats 2015](/slide_img/data-breach-numbers.png)
+
+???
+
+1. http://blog.gemalto.com/security/2016/03/16/4-things-learn-home-depots-172-million-data-breach/
+2. https://haveibeenpwned.com/
+3. https://twitter.com/jmgosney/status/733614448921870338
+
+In the first 24 hours of cracking against the May 2016 LinkedIn leak of 177 million user credentials originally gathered in 2012, a researcher was able to crack 85.5%, or about 150 million.
+These passwords were used to compromise the social media accounts of high profile targets, including Mark Zuckerberg, Founder and CEO of Facebook.
+
+---
+
+# System Compromise
+
+![Symantec ISTR Zero-Day Stats 2016](/slide_img/istr-zero-day.jpg)
+
+???
+
+1. https://www.symantec.com/security-center/threat-report
+
+---
+
+# Theft/Robbery
+
+![Kensington Laptop Theft Stats 2010](/slide_img/stolen_laptop.jpg)
+
+???
+
+1. http://readwrite.com/2012/02/14/infographic-the-cost-of-stolen/
+
+---
+
+# System Failure/Data Loss
+
+![Backblaze Q1 2016 Drive Report](/slide_img/drive_failure.jpg)
+
+???
+
+1. https://www.backblaze.com/blog/hard-drive-reliability-stats-q1-2016/
+
+---
+
+# Overview of Mitigation Strategies
+
+* Service Compromise ⇒ Use Strong Unique Passwords / Use a Password Manager / Use 2FA where available
+* System Compromise ⇒ Use script filtering and adblocking software / Follow safe browsing and email practices
+* Theft/Robbery ⇒ Use full disk encryption / Take anti-theft precautions
+* System Failure ⇒ Use secure off-site backups
+* Data Loss ⇒ Use secure off-site backups
+
+???
+
+⇒ is a Unicode symbol
+
+1. Password managers provide the ability to gain /some/ 2FA like protection even for sites that don't provide 2FA by using 2FA to login to the password manager
+2. Password managers provide an ability to only need to remember one strong password and then use randomly generated unique passwords for sites
+3. Adblocking is ethically questionable to some people, but the rise of malvertising being a primary infection vector along with VPAID ads which are intentionally annoying encourages it
+4. uBlock Origin + NoScript + Firefox, there is a learning curve but it's worth it
+5. Secure offsite backup service needs to provide open-source clients and properly implement zero-knowledge encryption (SpiderOak, TarSnap are two of the best)
+
+---
+
+# Passwords and 2-Factor Authentication
+
+![1Password Logo](/slide_img/1password.png)  
+![LastPass Logo](/slide_img/lastpass.png)  
+![Yubikey](/slide_img/yubikey.png)  
+![Authy Logo](/slide_img/authy.png)  
+![Google Auth Logo](/slide_img/googleauth.png)  
+
+???
+
+Logos (TM) their respective companies
+
+---
+
+# Adblocking / Script Filtering
+
+<h1>
+<sub>
+<img  src="/slide_img/ublock.png"
+      height="38"
+      width="38">
+</sub>
+uBlock Origin
+</h1>
+  
+![NoScript Logo](/slide_img/noscript.png)  
+![Firefox Logo](/slide_img/firefox.png)  
+![Brave Logo](/slide_img/brave.png)  
+
+???
+
+Logos (TM) their respective companies
+
+---
+
+# Full Disk Encryption
+
+* With SSDs and AES-NI there's almost no performance hit
+* Prevents someone from being able to read the data off the disk when the system is powered off
+* Built-in to every major OS
+* FileVault2 for OS X
+  - System Preferences -> Security -> Filevault
+* Bitlocker for Windows
+  - Control Panel -> System Security -> Bitlocker
+* LUKS/dm-crypt for Linux
+  - Most likely available during install for automatic setup, otherwise see the documentation
+
+---
+
+# Secure Off-Site Backups
+
+* Must be open-source client
+* Must properly implement zero knowledge encryption
+
+![SpiderOak Logo](/slide_img/spideroak.png)  
+![TarSnap Logo](/slide_img/tarsnap.png)
+
+???
+
+More notes in the overview.
+
+---
+
+# Theft Prevention Measures
+
+* Maintain yellow-alert situational awareness at all times
+* Get a strong/security backpack or briefcase to carry your laptop/gear
+* Loop a backpack strap or other hardpoint through your chair or table leg when sitting down at a cafe
+* Use a chain wallet / Wear clothing with zippered/flap closure pockets
+* Don't use your phone while walking down the street! Stop to use it, then put it away.
+* Use common sense
+
+.center[![PacSafe Logo](/slide_img/pacsafe_logo.png)]
+
+---
+
+# Conclusion
+
+* They *ARE* out to get you.
+* A little bit of good security puts you way ahead of the curve
+* Good security no longer has to be difficult
+* Traveling is risky, but there are ways to mitigate that risk
+* Stay frosty!
+
+Follow these basics steps:
+
+1. Use strong unique passwords
+2. Use a password manager
+3. Use 2FA when available
+4. Use a browser which respects your security and privacy
+5. Use adblocking and script blocking software
+6. Enable full disk encryption
+7. Keep an eye on your stuff and follow good anti-theft practices
+8. **Always keep a backup**, preferably using a secure offsite backup service
+
+---
+
+class: center, middle
+
+# Any Questions?
+
+.footnote[.font-size.small[[My Bio](#bio)]]
+
+    </textarea>
+    <script src="/.scripts/remark.min.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
