@@ -15,21 +15,24 @@
       }
       .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
       div.bio {
-        margin: 5px;
-        padding-bottom: 5px;
+        display: flex;
       }
-      .bio-photo { 
-        float: right;
-        margin: 0px;
+      div.bio .left {
+        font-size: 16px;
+        line-height: 1.5;
       }
-      .bio-text {
-        float: left;
-        margin: 0px;
-        font-size: medium;
+      div.bio .right {
+        display: block;
+        padding-left: 50px;
       }
       div.appeal-contact {
         margin: 5px;
         padding-top: 5px;
+      }
+      div.appeal-contact p {
+        max-width: 610px;
+        font-size: 16px;
+        margin: 10px auto;
       }
     </style>
   </head>
@@ -50,9 +53,9 @@ name: bio
 # Who Am I?
 
 .bio[
-.right[.bio-photo[![Me in Lisbon](/img/lisbon_haircut.jpg)]]
 
-.left[.bio-text[I'm Tyler Duzan, part of the Remote Year - Darien group.  I've been doing technical and security stuff since my childhood and professionally for over 12 years.  I've had the advantage of learning by experience from some of the best people in and out of the industry in the information security space.  During my career I've been awarded security bug bounties by Mozilla for identifying flaws in the Firefox web browser.  I've worked as the senior operations person on Rackspace Cloud, during which I was identified as the SME for identity and security, named global technical owner for Linux, and identified and fixed numerous security flaws both inside our products as well as helping open-source projects.  Most recently I've been part of a small group of engineers that helped a healthcare technology startup get the prestigious SOC II and HITRUST compliance certifications.]]
+.left[.bio-text[I'm Tyler Duzan, part of the Remote Year - Darien group.  I've been doing technical and security stuff since my childhood and professionally for over 12 years.  I've had the advantage of learning by experience from some of the best people in and out of the industry in the information security space.  During my career I've been awarded security bug bounties by Mozilla for identifying flaws in the Firefox web browser.  I've worked in senior roles for cloud providers and in the healthcare industry in the security and compliance capacity.  Most recently I was at a healthcare technology startup helping them achieve SOC II and HITRUST compliance.]]
+.right[.bio-photo[![Me in Lisbon](/img/lisbon_haircut.jpg)]]
 ]
 
 .appeal-contact[
