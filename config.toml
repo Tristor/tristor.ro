@@ -8,7 +8,7 @@ canonifyurls = true
 paginate = 10
 
 [permalinks]
-  post = "/blog/:year/:month/:day/:title/"
+  post = "/blog/:year/:month/:day/:slug/"
   page = "/:filename/"
 
 [indexes]

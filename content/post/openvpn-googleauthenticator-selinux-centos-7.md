@@ -2,6 +2,7 @@
 date = "2016-04-21T17:51:05-05:00"
 tags = ["tech", "linux", "devops", "security", "selinux", "vpn"]
 title = "OpenVPN + Google Authenticator + SELinux on CentOS 7"
+slug = "openvpn-google-authenticator-selinux-on-centos-7"
 topics = ["tech", "linux", "devops", "security"]
 
 +++
