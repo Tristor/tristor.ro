@@ -54,11 +54,11 @@ I liked this one, Jon took this photo of me shortly after the accident with my c
 
 Apparently in Michigan the state troopers drive cars that look like the TARDIS from Dr. Who.  I'm not really sure how they expect to be taken seriously driving these things, but I do have to give them props for being very professional, courteous, and helpful after the accident.
 
-{{% fluid_img "/img/Even Dr Who Can't Save Me From This Day.jpg" %}}
+{{< fluid_imgs "pure-u-1-1|/img/Even Dr Who Can't Save Me From This Day.jpg">}}
 
 Everybody was super cool at the rental car company, the tow company, the insurance company, everyone.  It was honestly not that bad of an experience considering.  Apparently turkey strikes are a common occurrence in Michigan, although its not something that we ever really hear about down here in Texas. The trooper that took down my report told me that I was the third turkey strike that week, and both the rental company mechanic and the tow truck driver told me they'd seen several too.  In the end, they set me up with a newer, better, redder Camaro to finish out my trip which I was happy to return in good condition. 
 
-{{% fluid_img "/img/Bright Red and Ready to Roll.jpg" %}}
+{{< fluid_imgs "pure-u-1-1|/img/Bright Red and Ready to Roll.jpg">}}
 
 
 As always, I'm far behind on post-processing of my photos.  I took several good ones while in Michigan, and I have to say I love this new 300mm f/4E PF lens.  Here's one of a Ring-Billed Gull that we saw near Sleeping Bear Dunes that I think I captured some great detail on.

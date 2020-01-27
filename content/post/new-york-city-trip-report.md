@@ -12,20 +12,22 @@ The trip was for business and it was my opportunity to meet my team at Eligible 
 
 First up, my team-mate Maksim (Max) enjoys baking bread in his spare time and made a loaf of traditional Belarusian bread to share with the team with the Eligible logo emblazoned into it.  Super awesome.
 
-{{% fluid_img "/img/Eligible_Bread.png" %}}
+{{< fluid_imgs "pure-u-1-1|/img/Eligible_Bread.png">}}
 
 The office is right near the East River looking out at the skyline of Manhattan.  I took this Pano to show it off.
 
-{{% fluid_img "/img/Office_Roof_Pano.png" %}}
+{{< fluid_imgs "pure-u-1-1|/img/Office_Roof_Pano.png">}}
 
 Perhaps the coolest thing is we have a Barista on staff in the office and he makes a killer macchiato.
 
-{{% fluid_img "/img/Macchiato.png" %}}
-{{% fluid_img "/img/Macchiato_Skyline.png" %}}
+{{< fluid_imgs 
+	"pure-u-1-1|/img/Macchiato.png"
+	"pure-u-1-1|/img/Macchiato_Skyline.png"
+>}}
 
 During one of our evenings we decided to take a walk across the Williamsburg Bridge into Manhattan and then ride the Citi bikes up to the Empire State Building and go up it.  We didn't quite make it in time to ride the bikes free (32 minutes to the 30 minutes free), nor did we make it in time to go up to the top of the Empire State Building (1:21AM arrival, 1:15AM last elevator).  On our way across the Williamsburg Bridge I saw this sign which I thought was pretty interesting and snapped a photo.
 
-{{% fluid_img "/img/Oy_Vey.png" %}}
+{{< fluid_imgs "pure-u-1-1|/img/Oy_Vey.png">}}
 
 That didn't deter us though, we went back again the following night a bit earlier.  This time I took an Uber rather than riding the bikes since my illness was getting the better of me.  My team-mates agreed that this was the best idea.
 
@@ -33,20 +35,20 @@ Being on the 102nd floor of the Empire State Building really does make you feel 
 
 A view of Manhattan from the Empire State Building
 
-{{% fluid_img "/img/Manhattan_From_ESB.png" %}}
+{{< fluid_imgs "pure-u-1-1|/img/Manhattan_From_ESB.png">}}
 
 A view of Brooklyn from the Empire State Building
 
-{{% fluid_img "/img/Brooklyn_From_ESB.png" %}}
+{{< fluid_imgs "pure-u-1-1|/img/Brooklyn_From_ESB.png">}}
 
 
 As my trip was nearing its end I found this funny and somewhat self-deprecating graffiti mural painted in Williamsburg of a hipster version of Arthur, the classic kids TV character.
 
-{{% fluid_img "/img/Williamsburg_Hipster_Arthur.png" %}}
+{{< fluid_imgs "pure-u-1-1|/img/Williamsburg_Hipster_Arthur.png">}}
 
 I close the report out with a team photo taken at dinner the night before our flights back home.  I apologize for leaning into the shot and partially blocking out Dmytro.
 
-{{% fluid_img "/img/Team_Photo.png" %}}
+{{< fluid_imgs "pure-u-1-1|/img/Team_Photo.png">}}
 
 From left to right: Katelyn (CEO and Founder), Tyler (Myself, Sr. TechOps Engineer), Dmytro (Dir. TechOps), Oleksiy (CTO), Joshua (Sr. TechOps Engineer), and Maksim (Sr. TechOps Engineer).
 

@@ -48,7 +48,7 @@ Taken inside the new brewery complex at the Pilsner Urquell brewery.  I loved th
 
 I found Kinder Eggs in the train station at Plzeň.  For those not aware, these are banned from importation into the US by the FDA because of a potential choking hazard due to the toy inside.  As it happens though, that toy is inside of a plastic capsule and I can't imagine how it'd be possible to swallow it far enough to choke as a full grown adult much less as a child.  Either way, I of course had to buy some for everyone in our group.  Someone got a photo of me posed holding it :)
 
-{{% fluid_img "/img/Me_Holding_a_Kinder_Egg_in_Plzen.jpg" %}}
+{{< fluid_imgs "pure-u-1-1|/img/Me_Holding_a_Kinder_Egg_in_Plzen.jpg">}}
 
 
 #### What's Up Next?  

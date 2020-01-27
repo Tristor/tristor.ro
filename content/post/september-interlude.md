@@ -36,7 +36,7 @@ I just wanted to say thank you and give a shoutout to the awesome folks at [Mant
 
 My flatmate for this month was [Eddie](https://www.youtube.com/user/eddiecontento/).  During one of our many late-night/early-morning conversations he challenged me that if I loved pastel de nata so much I would write it a poem.  So I did.  I took it as an opportunity to experiment with [sensual language for food](https://www.washingtonpost.com/news/wonk/wp/2014/04/15/the-traumatic-sensual-addicted-language-of-restaurant-reviews-and-what-it-says-about-you/). Without further ado, here's my love poem for pastéis de nata:
 
-{{% fluid_img "/img/pasteldenata.png" %}}  
+{{< fluid_imgs "pure-u-1-1|/img/pasteldenata.png">}}
   
   
 ```verse

@@ -21,7 +21,7 @@ As to being outgoing, I guess I've always been somewhat outgoing and definitely 
 
 #### On Anxiety and Zones
 
-{{% fluid_img "/img/comfort_zone.png" %}}
+{{< fluid_imgs "pure-u-1-1|/img/comfort_zone.png">}}
 
 The image above is not the same one, but very similar to one that was shown during "Big Day".  It is important because it helps to describe the state of mind and being that we are in as part of the program and within this journey.  **Our goal is to break out of our comfort zones and put ourselves into the learning zone while trying to avoid the panic zone.** As someone who suffers from social anxiety though, I must say that the last couple of weeks just getting to know everyone and participating in large group activities has definitely crossed the threshold a bit for me.  I think this will relax as things move on and smaller groups form within the larger as is already somewhat happening.
 
@@ -48,11 +48,11 @@ Here's David, posing for his photo, looking like a baller.
 
 A group of us had gone earlier in the same day to watch the sun rise from Charles Bridge, which affords us a view of the Prague Castle and other parts of the skyline very nicely.  Of course no sunrise watching would be complete without mimosas! Here's a group photo from that morning:
 
-{{% fluid_img "/img/Group_Photo_Sunrise_at_Charles_Bridge.jpg" %}}
+{{< fluid_imgs "pure-u-1-1|/img/Group_Photo_Sunrise_at_Charles_Bridge.jpg">}}
 
 Here's a smaller group photo with Prague Castle in the background:
 
-{{% fluid_img "/img/Sunrise_Group_with_Prague_Castle_in_Background.jpg" %}}
+{{< fluid_imgs "pure-u-1-1|/img/Sunrise_Group_with_Prague_Castle_in_Background.jpg">}}
 
 During our sunrise party on the Charles Bridge, I asked if anyone wanted to pose for portraits.  Several people took me up on that offer.  First up was Angela who posed perfectly to get the entirety of Prague Castle in the frame.
 

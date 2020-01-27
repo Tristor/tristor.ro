@@ -26,7 +26,7 @@ We left Prague on what is basically a "tour bus" for a long journey to Belgrade 
 
 Secondly I found Király Utca (Street) in Budapest which is home to a famous fashion and arts district.  It's important because a good friend of mine, Kristin, has the maiden name of Kiraly, which I learned from my cab driver means "king" or "kingly".  
 
-{{% fluid_img "/img/kiraly_street.jpg" %}}
+{{< fluid_imgs "pure-u-1-1|/img/kiraly_street.jpg">}}
 
 
 Along the way to Budapest, our bus had it's air conditioning break and the heat + erratic road conditions lead to the restroom on the bus stinking the place up.  I wrote a short poem about our experiences although it ends before the journey does as I couldn't think of anything more to write.  I will warn everyone in advance the poem is terrible.  I wrote it without access to the Internet while too hot to think in a very short amount of time by typing it into my phone in `Notes`.  You've been warned, without further ado here it is:
@@ -56,7 +56,7 @@ Along the way to Budapest, our bus had it's air conditioning break and the heat 
   
 Yep, that was pretty much it.  When we arrived at the Serbian border things went pretty smoothly and while waiting for the customs officials to deal with the busses so we could reboard, we all did some yoga.  As will be very clear from the picture below I had absolutely no clue what I was doing.
 
-{{% fluid_img "/img/serbian_border_yoga.jpg" %}}
+{{< fluid_imgs "pure-u-1-1|/img/serbian_border_yoga.jpg">}}
 
 
 ### On The Beauty of the Serbian Spirit
@@ -68,7 +68,7 @@ Some examples of what I mean regarding music shown below:
 <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/BHmQhDyh1Do/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">A string quartet playing in front of the national gallery.  #justbelgradethings #Belgrade #remoteyeardarien #remoteyear</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A photo posted by Tyler Duzan (@tristor86) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2016-07-08T10:51:28+00:00">Jul 8, 2016 at 3:51am PDT</time></p></div></blockquote>
 <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
 
-{{% fluid_img "/img/vox_blues_club.jpg" %}}
+{{< fluid_imgs "pure-u-1-1|/img/vox_blues_club.jpg">}}
 
 I also loved [Nancy Levenson's take on Belgrade](http://www.andshegoes.com/home/2016/7/4/my-first-date-with-belgrade-serbia) which I encourage you to read as well.
 
@@ -120,7 +120,7 @@ Not really a spot for food, although some sandwiches are available.  Rather this
 
 Last but certainly not least, these folks managed to tame my unruly hair and make me look halfway decent with a bit of European flair.  I was impressed with the shop and with the barber, Milan.  He was able to feel my hair and immediately know that it wasn't going to work in that middle stage, it either needed to be long or short.  This has been my experience most of my life and thus I usually keep my hair very short all around.  He suggested something different that is popular in Europe and would help my face look more symmetrical, and by all accounts it turned out very well.  I think pictures speak louder than words, so without further ado here's a photo of my after my first haircut since leaving the US:
 
-{{% fluid_img "/img/belgrade_haircut.jpg" %}}
+{{< fluid_imgs "pure-u-1-1|/img/belgrade_haircut.jpg">}}
 
 ### Photography From Serbia Thus Far
 
