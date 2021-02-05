@@ -19,7 +19,9 @@ paginate = 10
   # Shown in the home page
   subtitle = "Code, Coffee, Photography, and Travel"
   brand = "Wandering<br>in<br>Wondering"
-  googleAnalytics = "UA-74523510-1"
+  # Disaling Google Analytics
+  #googleAnalytics = "UA-74523510-1"
+  goatcounterAnalytics = "tristor"
   # Disabling Disqus
   #disqus = "wanderinginwondering"
   commento = "tristor.ro"
