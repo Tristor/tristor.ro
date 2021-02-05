@@ -20,7 +20,9 @@ paginate = 10
   subtitle = "Code, Coffee, Photography, and Travel"
   brand = "Wandering<br>in<br>Wondering"
   googleAnalytics = "UA-74523510-1"
-  disqus = "wanderinginwondering"
+  # Disabling Disqus
+  #disqus = "wanderinginwondering"
+  commento = "tristor.ro"
   # CSS name for highlight.js
   highlightjs = "androidstudio"
   dateFormat = "02 Jan 2006, 15:04"
