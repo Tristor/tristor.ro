@@ -25,56 +25,56 @@ Not really equipment, but an honestly good tip I saw online was to freeze bottle
 That brings us to the next part... The Menu.
 
 
-### The Menu
+### The Menu  
 
 I wanted to go for something that's mostly Summer-inspired, even though it's not really Summer yet.  I also needed to make things that I could do the day or two days ahead of time, so that morning I just need to pack the basket and go.  I'm going to link to the recipes I found online I'm using, or if not from online will note the recipe here.
 
-#### Beverages:
-Sauvignon Blanc White Wine
-Pomegranate Mint Lemonade (recipe below)
-Ice Water
+#### Beverages:  
+Sauvignon Blanc White Wine  
+Pomegranate Mint Lemonade (recipe below)  
+Ice Water  
 
-#### Prepared Dishes:
-[Triple Berry and Plum Panzanella](https://www.seriouseats.com/recipes/2012/07/summer-fruit-croisstant-panzanella-recipe.html)
-[Esquites Salad](https://www.seriouseats.com/recipes/2012/07/esquites-mexican-street-corn-salad-recipe.html)
-[Smoked Gouda and Apple Butter Finger Sandwiches](https://www.saveur.com/article/Recipes/Smoked-Gouda-and-Apple-Butter-Sandwich/)
-[Blueberry Oat Bars](https://www.food.com/recipe/blueberry-picnic-bars-1600?photo=244687)
-[Three-Bean Salad](https://www.chowhound.com/recipes/three-bean-salad-11802)
+#### Prepared Dishes:  
+[Triple Berry and Plum Panzanella](https://www.seriouseats.com/recipes/2012/07/summer-fruit-croisstant-panzanella-recipe.html)  
+[Esquites Salad](https://www.seriouseats.com/recipes/2012/07/esquites-mexican-street-corn-salad-recipe.html)  
+[Smoked Gouda and Apple Butter Finger Sandwiches](https://www.saveur.com/article/Recipes/Smoked-Gouda-and-Apple-Butter-Sandwich/)  
+[Blueberry Oat Bars](https://www.food.com/recipe/blueberry-picnic-bars-1600?photo=244687)  
+[Three-Bean Salad](https://www.chowhound.com/recipes/three-bean-salad-11802)  
 
-#### Breads:
-Rosemary Sourdough Bread
-French Baguette
-Bruschettini
+#### Breads:  
+Rosemary Sourdough Bread  
+French Baguette  
+Bruschettini  
 
-#### Charcuterie:
+#### Charcuterie:  
+  
+##### Accompaniments:  
+Thinly Sliced Kanzi and Snap Dragon Apples  
+Mango Peach Preserves  
+Pear, Date, and Cognac Chutney  
+Strawberry Jam  
+Deli Style Brown Mustard  
 
-##### Accompaniments:
-Thinly Sliced Kanzi and Snap Dragon Apples
-Mango Peach Preserves
-Pear, Date, and Cognac Chutney
-Strawberry Jam
-Deli Style Brown Mustard
+##### Cheeses:  
+Apple & Walnut Smoked White Cheddar  
+12-Month Aged Manchego  
+Farmhouse Style Yellow Cheddar with Italian Truffles  
+Le Gruyere AOP  
+Rosemary and Olive Oil Aged Asiago  
 
-##### Cheeses:
-Apple & Walnut Smoked White Cheddar
-12-Month Aged Manchego
-Farmhouse Style Yellow Cheddar with Italian Truffles
-Le Gruyere AOP
-Rosemary and Olive Oil Aged Asiago
-
-##### Meats:
-Dry-Cured Spanish Chorizo
-HEB In-House Traditional Roast Beef
-Peppered Dry Salame
-Sopressata
-Jamon Serrano
-Calabrese
+##### Meats:  
+Dry-Cured Spanish Chorizo  
+HEB In-House Traditional Roast Beef  
+Peppered Dry Salame  
+Sopressata  
+Jamon Serrano  
+Calabrese  
 
 #### How to Make Pomegranate Mint Lemonade
 
-1. Prepare your lemon juice by freshly squeezing 1 and 2/3 cups of lemon juice, roughly 10 large lemons.
-2. Take 2 tablespoons of fresh mint leaves and neatly julienne them, saving some whole leaves for garnish optionally.
-3. Slice 1 lemon into 1/4 inch thick slices
+1. Prepare your lemon juice by freshly squeezing 1 and 2/3 cups of lemon juice, roughly 10 large lemons.  
+2. Take 2 tablespoons of fresh mint leaves and neatly julienne them, saving some whole leaves for garnish optionally.  
+3. Slice 1 lemon into 1/4 inch thick slices  
 4. In a large pitcher half-filled with ice, add 2 cups of filtered or spring water, the lemon juice, 1/3 cup of [pomegranate orange blossom simply syrup](https://www.backyardsodas.com/product/true-grenadine-simple-syrup/), your julienned mint and lemon slices.  
 5. Stir to combine.  
 
