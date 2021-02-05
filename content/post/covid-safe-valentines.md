@@ -2,7 +2,7 @@
 date = 2021-02-04T21:26:12-06:00
 tags = ["me", "food", "cooking"]
 topics = ["me", "food", "cooking"]
-title = 'A COVID Safe Valentine's Day Plan'
+title = 'A COVID Safe Valentines Day Plan'
 +++
 
 ### Introduction
