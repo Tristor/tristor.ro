@@ -3,7 +3,7 @@ languageCode = "en-us"
 theme = "blackburn"
 title = "Wandering in Wondering"
 author = "Tristor"
-copyright = "&copy; 2016 <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/'>Licensed CC:By-NC-SA</a>"
+copyright = "&copy; 2021 <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/'>Licensed CC:By-NC-SA</a>"
 canonifyurls = true
 paginate = 10
 
@@ -46,35 +46,47 @@ paginate = 10
     identifier = "about"
     url = "/about/"
   [[menu.main]]
+    name = "Resume"
+    pre = "<i class='fa fa-user fa-fw'></i>"
+    weight = 2
+    identifier = "resume"
+    url = "/resume/"
+  [[menu.main]]
     name = "Posts"
     pre = "<i class='fa fa-list fa-fw'></i>"
-    weight = 2
+    weight = 3
     identifier = "post"
     url = "/post/"
   [[menu.main]]
     name = "Gallery"
     pre = "<i class='fa fa-camera fa-fw'></i>"
-    weight = 3
+    weight = 4
     identifier = "gallery"
     url = "/gallery/"
   [[menu.main]]
-    name = "Topics"
+    name = "Cars"
+    pre = "<i class='fa fa-car fa-fw'></i>"
+    weight = 5
+    identifier = "cars"
+    url = "/cars/"
+  [[menu.main]]
+    name = "Cooking"
+    pre = "<i class='fa fa-utensils fa-fw'></i>"
+    weight = 6
+    identifier = "cooking"
+    url = "/cooking/"
+  [[menu.main]]
+    name = "Other Topics"
     pre = "<i class='fa fa-folder fa-fw'></i>"
-    weight = 4
+    weight = 7
     identifier = "topic"
     url = "/topics/"
   [[menu.main]]
     name = "Tags"
     pre = "<i class='fa fa-tags fa-fw'></i>"
-    weight = 5
+    weight = 8
     identifier = "tag"
     url = "/tags/"
-  [[menu.main]]
-    name = "Resume"
-    pre = "<i class='fa fa-user fa-fw'></i>"
-    weight = 6
-    identifier = "resume"
-    url = "/resume/"
 
 [social]
   # Link your social networking accouns to the side menu
