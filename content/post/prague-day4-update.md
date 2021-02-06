@@ -21,7 +21,7 @@ The flight to Prague was pretty long but thankfully the lady next to me was forg
 
 Baggage was a bit of a challenge for us when we arrived, but after we found all our bags it was pretty smooth sailing getting through Customs.  I have a shiny new Prague entrance stamp in my passport and hopefully by the end of this my passport will be full or close to it.  Here's our group photo from our arrival:
 
-{{% fluid_img "/img/RY_Prague_Arrival.jpg" %}}
+{{< fluid_imgs "pure-u-1-1|/img/RY_Prague_Arrival.jpg">}}
 
 
 ### Day 1 and the Beer Garden
@@ -30,15 +30,15 @@ I explored the city a bit with John and we found a bunch of cool little shops th
 
 A little cafe and patisserie is right next to our residence where I had the following for 162CZK (~$6.50)
 
-{{% fluid_img "/img/Karamel_Tarte_with_Espresso.png" %}}
+{{< fluid_imgs "pure-u-1-1|/img/Karamel_Tarte_with_Espresso.png">}}
 
 The evening of Day One, a pretty large group of us earlier arrivals met up at a beer garden in the middle of a nice park called Riegrovy Sady, not too far from our residence areas.  The beer is plentiful and cheap, many times literally cheaper than water.  A half liter (17oz) pour of beer averages about 42CZK (~$1.75) and a similarly sized bottle of water is around 55CZK (~$2.25).  Tap water is totally safe to drink here, but most restaurants won't serve it, although the beer garden did.  In addition to beer, the beer garden had several small food stands around the outskirts where the food was very tasty and pretty cheap.  In total for the food below + one beer, I paid 99CZK (~$4.00).  
 
-{{% fluid_img "/img/Beer_Garden_Food.png" %}}
+{{< fluid_imgs "pure-u-1-1|/img/Beer_Garden_Food.png">}}
 
 While at the beer garden we had a pretty large group of people.  I apologize for the quality of the photo, it was dark and I was using my phone camera.
 
-{{% fluid_img "/img/Sunday_Arrival_Group_Prague.png" %}}
+{{< fluid_imgs "pure-u-1-1|/img/Sunday_Arrival_Group_Prague.png">}}
 
 
 ### Day 2, Old Town, and the Metro
@@ -53,21 +53,21 @@ Lest you get the wrong impression though, I should clarify that now that I under
 At Noon on Day 2 we had our "Little Day" meet and greet event and to go over some basics with the RY staff.  While there we got our first look at the coworking space we'll be using here in Prague.  It's the former Danish Embassy and is now named K10.  It's a gorgeous old world style building with a nice garden in the back and a huge park nearby which has Wi-Fi signal from K10.
 Here's some photos from that:
 
-{{% fluid_img "/img/K10_Coworking_Space.png" %}}
+{{< fluid_imgs "pure-u-1-1|/img/K10_Coworking_Space.png">}}
 
 Photo of me in front of K10 taken by my roomie.  If you couldn't tell, my favorite color is blue.
 
-{{% fluid_img "/img/Me_At_K10.png" %}}
+{{< fluid_imgs "pure-u-1-1|/img/Me_At_K10.png">}}
 
 My roommate took a selfie accidentally because I had my phone in selfie mode when I handed it to him but it came out pretty great :)
 
-{{% fluid_img "/img/Prague_Roomie.png" %}}
+{{< fluid_imgs "pure-u-1-1|/img/Prague_Roomie.png">}}
 
 #### TexMex? Yes, TexMex for Lunch!
 
 People in Prague apparently love TexMex cuisine as restaurants serving it are commonly seen and very popular with locals.  I walked by several in the process of finding a place for lunch and decided to risk it after finding a restaurant that had the names of the food in their proper Spanish but with Czech for the descriptions.  I promptly ordered tacos de pollo with salsa verde and a Pilsner Urquell.  I was pleasantly surprised, it was fabulous.  I shared my appreciation with the owner, mentioning that I'd come in from Texas which caused him to tear up and give me a hug.  Here's what was served:
 
-{{% fluid_img "/img/TexMex_in_Prague.png" %}}
+{{< fluid_imgs "pure-u-1-1|/img/TexMex_in_Prague.png">}}
 
 
 #### Old Town
@@ -79,16 +79,16 @@ Of course it wouldn't be a visit to Prague without a visit to Old Town and getti
 
 Of course, no visit to Old Town is complete without going to U Fleků, which is the oldest continously operating pub in Europe founded 1499 A.D.  Since Old Town has become a common tourist area, the prices were much higher, but the food was pretty good and the beer of which they only have one, brewed right there on premise, was excellent.  Here it is, Flekovský Tmavý Ležák 13°.
 
-{{% fluid_img "/img/U_Fleku_Beer.png" %}}
+{{< fluid_imgs "pure-u-1-1|/img/U_Fleku_Beer.png">}}
 
 
 #### On The Way to Second Dinner
 
 I met up with some late arrivals in our group I hadn't previously seen and had a second dinner late in the day.  During the course of the day and by this point I had walked almost 12 miles and went up more than 50 flights of stairs, so I could afford the calories.  We met near Žižkov Television Tower, colloquially know amongst our group as "baby tower" because of the strange installation art of babies climbing the tower.  I snapped the last few pictures of the day with my phone, having left my camera at the residence before heading towards the tower.  In the first photo I found a very nice park and building near the tower.  And in the second photo I attempt to get the tower in the frame while still showing the babies.
 
-{{% fluid_img "/img/Beautiful_Public_Spaces.png" %}}
+{{< fluid_imgs "pure-u-1-1|/img/Beautiful_Public_Spaces.png">}}
 
-{{% fluid_img "/img/Baby_Tower.png" %}}
+{{< fluid_imgs "pure-u-1-1|/img/Baby_Tower.png">}}
 
 
 ### Day 3
@@ -115,7 +115,9 @@ All that said, I also wanted to call attention to another member of my RY cohort
 
 Eddie also photographed this awesome sculpture today:
 
+{{< rawhtml >}}
 <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/BGHySE8xkBB/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">&#34;Slight Uncertainty&#34; by Michal Trpak. &#34;Slight because of seeming lightness of flying, but uncertain because of unsure landing and unknown length of flight.&#34; #prague #wander #wanderlust #nomad #digitalnomad #remoteyear</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A photo posted by Eddie Contento (@con10to) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2016-06-01T18:18:40+00:00">Jun 1, 2016 at 11:18am PDT</time></p></div></blockquote>
 <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+{{< /rawhtml >}}
 
 Till next time, hezký den.
