@@ -34,12 +34,6 @@ paginate = 10
 [menu]
   # Shown in the side menu.
   [[menu.main]]
-    name = "Home"
-    pre = "<i class='fa fa-home fa-fw'></i>"
-    weight = 0
-    identifier = "home"
-    url = "/"
-  [[menu.main]]
     name = "About"
     pre = "<i class='fa fa-user fa-fw'></i>"
     weight = 1
@@ -76,7 +70,7 @@ paginate = 10
     identifier = "cooking"
     url = "/cooking/"
   [[menu.main]]
-    name = "Other Topics"
+    name = "Topics"
     pre = "<i class='fa fa-folder fa-fw'></i>"
     weight = 7
     identifier = "topic"
