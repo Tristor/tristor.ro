@@ -20,7 +20,7 @@ None of the consumer-available EBC compounds are appropriate for track use, incl
 
 ### Generally Avoid "Hybrid" Pads.  Get a Dedicated Track Pad
 
-There are definitely some hybrid pads that will work for a beginner in HPDE like the Ferodo DS2500, however any of the hybrid pads, including the DS2500 will soon show their weaknesses as you improve your driving skill.  There are, to my knowledge, not a single "hybrid" pad compound on the market that is actually capable of being used as a real track pad.  They're all far too street oriented and beyond the very first track event you might do, should be seriously avoided.  Regardless of the brand, these types of pads simply aren't appropriate for track use.  Get a dedicated track pad.  If you don't want to swap pads, get a dedicated track pad that has a wide enough temperate band it can be used on the street and deal with the higher rotor wear rates and NVH.
+There are definitely some hybrid pads that will work for a beginner in HPDE like the Ferodo DS2500, however any of the hybrid pads, including the DS2500 will soon show their weaknesses as you improve your driving skill.  There are, to my knowledge, not a single "hybrid" pad compound on the market that is actually capable of being used as a real track pad.  They're all far too street oriented and beyond the very first track event you might do, should be seriously avoided.  Regardless of the brand, these types of pads simply aren't appropriate for track use.  Get a dedicated track pad.  If you don't want to swap pads, get a dedicated track pad that has a wide enough temperature band it can be used on the street and deal with the higher rotor wear rates and NVH.
 
 ### So What Should You Use?
 
