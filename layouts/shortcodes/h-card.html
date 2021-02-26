@@ -1,11 +1,8 @@
 <div class="h-card">
-	<h3>My <a href="https://microformats.org/wiki/h-card">h-card</a>
-  <span class="p-name">{{ .Get "name" }}</span>
-  <span class="p-honorific-prefix">{{ .Get "honorific" }}</span>
-  <span class="p-given-name">{{ .Get "given-name" }}</span>
-  <abbr class="p-additional-name">{{ .Get "middle-name" }}</abbr>
-  <span class="p-family-name">{{ .Get "family-name" }}</span>
-  <span class="p-nickname">{{ .Get "nickname" }}</span>
-	<a class="u-url" href="{{ .Site.Params.baseurl }}">{{ .Site.Params.title }}</a>
-	<a class="u-key" href="{{ .Get 'key-url' }}">My Public Key</a>
+	<strong>My <a href="https://microformats.org/wiki/h-card">h-card:</a></strong><br />
+  My name is <span class="p-name">{{ .Get "name" }}</span>, or more formally <span class="p-honorific-prefix">{{ .Get "honorific" }}</span> <span class="p-given-name">{{ .Get "given-name" }}</span> <abbr class="p-additional-name">{{ .Get "middle-name" }}</abbr> <span class="p-family-name">{{ .Get "family-name" }}</span>.<br />
+  My nickname is <span class="p-nickname">{{ .Get "nickname" }}</span>.
+  This site you're on, entitled <a class="u-url" href="{{ site.BaseURL }}">{{ site.Title }}</a>, is my personal website as part of the <a href="https://indieweb.org/">IndieWeb</a><br />
+  
+  If you need to contact me, please encrypt your messages using <a class="u-key" href="{{ .Get "keyurl" }}">my public key</a>.
 </div>
