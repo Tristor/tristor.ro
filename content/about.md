@@ -6,9 +6,7 @@ topics = ["me"]
 
 +++
 
-{{< fluid_imgs "pure-u-1-1|/img/belgrade_haircut.jpg" >}}
-
-{{< h-card name="Tyler Duzan" honorific="Mr." given-name="Tyler" middle-name="T." family-name="Duzan" nickname="tristor" keyurl="/files/tyler.duzan.asc" >}}
+{{< h-card photo="/img/belgrade_haircut.jpg" name="Tyler Duzan" honorific="Mr." given-name="Tyler" middle-name="T." family-name="Duzan" nickname="tristor" keyurl="/files/tyler.duzan.asc" >}}
 
 
 I am many things, but perhaps most of all I am a life-long learner.  I aspire to become a renaissance man, although I see the journey ahead as being long (and a whole lot of fun).  My interests are fairly broad, and I tend to pick up new hobbies and interests often, delve deeply into them, and then file them away to make room for the next.
