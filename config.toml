@@ -28,9 +28,11 @@ paginate = 10
   commento = "tristor.ro"
   # CSS name for highlight.js
   highlightjs = "androidstudio"
-  dateFormat = "02 Jan 2006, 15:04"
+  dateFormat = "02 Jan 2006, 15:04 MST"
   # Custom CSS
   custom_css = ["css/resume.css"]
+  # Must provide a fully qualified path
+  pgpkey = "https://tristor.ro/files/tyler.duzan.asc"
 
 [menu]
   # Shown in the side menu.
