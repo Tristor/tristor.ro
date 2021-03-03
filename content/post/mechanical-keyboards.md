@@ -1,7 +1,7 @@
 +++
 date = "2021-03-02T09:16:21-06:00"
-tags = ["x", "y"]
-topics = ["x", "y"]
+tags = ["tech", "keyboards"]
+topics = ["tech", "keyboards"]
 title = "A Word On Mechanical Keyboards"
 author = "Tyler Duzan"
 authorcard = "https://tristor.ro/about/"
