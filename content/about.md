@@ -37,7 +37,7 @@ I have been accepted into the Darién cohort for [Remote Year](http://www.remote
 
 ### Product Manager
 
-During my time at Rackspace (2010-2014), I started learning more about the Product side of tech, and got the opportunity to move into a Product Manager role at Percona (2017-2020), which landed me at Mozilla (2020-now) where I currently work.  I'm still learning all the different facets of Product Management, but I bring to this a significant technical background, with an advanced understanding of security and cloud technologies, which helps me to form a strong rapport with the engineering teams I work with and advance business objectives rapidly through consensus-building.  I may write some about my experiences as a Product Manager as I learn things I think are worth passing along. 
+During my time at Rackspace (2010-2014), I started learning more about the Product side of tech, and got the opportunity to move into a Product Manager role at Percona (2017-2020), which landed me at Mozilla (2020-2022) working on Firefox, since then I've been at Cisco within ThousandEyes (2022-now).  I'm still learning all the different facets of Product Management, but I bring to this a significant technical background, with an advanced understanding of security and cloud technologies, which helps me to form a strong rapport with the engineering teams I work with and advance business objectives rapidly through consensus-building.  I may write some about my experiences as a Product Manager as I learn things I think are worth passing along. 
 
 ### DevOps Engineer
 
