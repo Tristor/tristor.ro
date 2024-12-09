@@ -6,7 +6,15 @@ description = "Tyler Duzan's personal website covering topics related to technol
 author = "Tyler Duzan"
 copyright = "&copy; 2021 <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/'>Licensed CC:By-NC-SA</a>"
 canonifyurls = true
-paginate = 10
+
+# Allow raw HTML rendering mixed with Markdown
+[markup]
+	[markup.goldmark]
+		[markup.goldmark.renderer]
+			unsafe = true
+
+[pagination]
+pagerSize = 10
 
 [permalinks]
   post = "/blog/:year/:month/:day/:slug/"
