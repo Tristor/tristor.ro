@@ -93,7 +93,7 @@ pagerSize = 10
     identifier = "tag"
     url = "/tags/"
 
-[social]
+[params.social]
   # Link your social networking accouns to the side menu
   # by entering your username or ID.
   flickr = "totaledcow"
