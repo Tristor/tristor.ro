@@ -45,7 +45,7 @@ We went and had a very nice celebratory dinner at Kusa Nori, where I indulged in
 
 ### August 9th: Crack the Core (CTC) and Wrapping Up
 
-My friend and I both headed directly to Crack The Core and started working on locks until Noon when the villages closed and all the CTFs officially ended.  My final ranking was 25th overall in Crack The Core and his was 17th overall.  I went to a great talk on travel security, and then went with my friend back over to the vendors so he could pick some things up.  We left a bit early to just chill and decompress and then met up for dinner before getting ready for the closing party that was at 10:30PM at LIV nightclub inside the Fontainebleau.  I checked our rankings on 5n4ck3y and I ended up 115th overall, which is pretty good for not doing much at all on the second half.
+My friend and I both headed directly to Crack The Core and started working on locks until Noon when the villages closed and all the CTFs officially ended.  My final ranking was 25th overall in Crack The Core and his was 13th overall.  I went to a great talk on travel security, and then went with my friend back over to the vendors so he could pick some things up.  We left a bit early to just chill and decompress and then met up for dinner before getting ready for the closing party that was at 10:30PM at LIV nightclub inside the Fontainebleau.  I checked our rankings on 5n4ck3y and I ended up 115th overall, which is pretty good for not doing much at all on the second half.
 
 ### August 10th: Return Travel
 
